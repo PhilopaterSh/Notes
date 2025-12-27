@@ -1,0 +1,323 @@
+{
+  "main": {
+    "id": "72b4614d4db75ffd",
+    "type": "split",
+    "children": [
+      {
+        "id": "48f68f5b39d462e8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5328f67d91abbbdb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NTI - Bug Bounty/Summary.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Summary"
+            }
+          },
+          {
+            "id": "ce8d19663848f7e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/Web Application Penetration Testing/Bug Bounty/Bug BountyPrograms.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Bug BountyPrograms"
+            }
+          },
+          {
+            "id": "72ad32c65adcc1a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/Web Application Penetration Testing/Hacker Methodology/Extension.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Extension"
+            }
+          },
+          {
+            "id": "32d48d92c5ab7b0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NTI - Bug Bounty/Summary.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Summary"
+            }
+          },
+          {
+            "id": "3925c95e8ee66657",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/Web Application Penetration Testing/Hacker Methodology/Scanning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Scanning"
+            }
+          },
+          {
+            "id": "044f34e416fe8c2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/Web Application Penetration Testing/Hacker Methodology/Tools.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tools"
+            }
+          },
+          {
+            "id": "fe37243e9db0687c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Digilians/Soft Skills.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Soft Skills"
+            }
+          },
+          {
+            "id": "2dabf11b86e5e371",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Digilians/SEC-102 Network  Security  and Cyber Defense.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SEC-102 Network  Security  and Cyber Defense"
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6ea8e071688fff63",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c31b4b22a3ab63f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "76b66eb88ced244a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "61a2de88fbd54ee5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b1ed2bdc9742b9a7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7e3af57a1d6fa5c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "fbb6039a65f82c46",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b1d9a5edb16fcda",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "NTI/Penetration testing/Fundamental (in interview).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Fundamental (in interview)"
+            }
+          },
+          {
+            "id": "a24bea960bf4b9aa",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "NTI/Penetration testing/Fundamental (in interview).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Fundamental (in interview)"
+            }
+          },
+          {
+            "id": "ed84d741e2bf76ec",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "629b0c3530160b93",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "NTI/Penetration testing/Fundamental (in interview).md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Fundamental (in interview)"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "2dabf11b86e5e371",
+  "lastOpenFiles": [
+    "Digilians/SEC-101 Foundations of Cybersecurity.md",
+    "Digilians/SEC-102 Network  Security  and Cyber Defense.md",
+    "NTI - Bug Bounty/Summary.md",
+    "Digilians/Freelance English Communication.md",
+    "Digilians/Huawei HCIA.md",
+    "Cybersecurity/Web Application Penetration Testing/Hacker Methodology/Scanning.md",
+    "Cybersecurity/Web Application Penetration Testing/Hacker Methodology/Extension.md",
+    "Task.md",
+    "NTI - Bug Bounty/WebGoat.md",
+    "Untitled 4.base",
+    "Cybersecurity/Web Application Penetration Testing/Hacker Methodology/Tools.md",
+    "Digilians/Soft Skills.md",
+    "Untitled 3.base",
+    "Cybersecurity/Web Application Penetration Testing/Hacker Methodology/Hacker Methodology.md",
+    "Cybersecurity/Web Application Penetration Testing/Hacker Methodology/🛠️ Tool/httpx.md",
+    "Cybersecurity/Web Application Penetration Testing/Hacker Methodology/🛠️ Tool/Dirsearch.md",
+    "Cybersecurity/Web Application Penetration Testing/Hacker Methodology/🛠️ Tool/Arjun.md",
+    "Cybersecurity/Web Application Penetration Testing/Bug Bounty/كورس مش ابراهيم حجازي 😂.md",
+    "Cybersecurity/Web Application Penetration Testing/Bug Bounty/Verily Life Sciences.md",
+    "Cybersecurity/Web Application Penetration Testing/Bug Bounty/Courses.md",
+    "Cybersecurity/Web Application Penetration Testing/Bug Bounty/Bug BountyPrograms.md",
+    "Cybersecurity/Red Teaming, Ethical Hacking, Bug Hunting & Penetration Test/Section 2 Penetration Testing Basics.md",
+    "Welcome.md",
+    "Install kali.md",
+    "how-the-web-works.md",
+    "Cisco Certified Network Associate (CCNA).md",
+    "20250605-0540-06.2348476.mp4",
+    "20 days Agenda.pdf",
+    "3.Operating System Fundmental.pdf",
+    "2.Network security.pdf",
+    "NTI (TOT Training G3)/10-8-2025.md",
+    "NTI - Bug Bounty/Summary_Ordar.md",
+    "Digilians",
+    "potential-funicular",
+    "Untitled 2.base",
+    "Untitled 1.base",
+    "Pasted image 20250930115500.png",
+    "Interview Questions Main/Penetration-Testing-Interview-Questions-main/Images/waf.png",
+    "Pasted image 20250913123659.png",
+    "Pasted image 20250913123123.png",
+    "Pasted image 20250913123031.png",
+    "Pasted image 20250913122943.png",
+    "Pasted image 20250913122620.png",
+    "Pasted image 20250913122359.png",
+    "Pasted image 20250913121651.png",
+    "Pasted image 20250908034511.png",
+    "Untitled 1.canvas",
+    "Untitled.canvas"
+  ]
+}
