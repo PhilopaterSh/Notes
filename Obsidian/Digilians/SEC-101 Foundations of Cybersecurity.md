@@ -1,3 +1,4 @@
+[Drive Google]([st_sec1010 - Google Drive](https://drive.google.com/drive/folders/1lXSU9mbeVJzXSV1iK9Nh1KJQMZGYmdkY))
 # SEC-101: Foundations of Cybersecurity National Telecommunication Institute (NTI)  Cairo, Egypt  - 2025
 
 Course Overview
