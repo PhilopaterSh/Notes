@@ -7,7 +7,7 @@
     [LinkedIn](https://www.linkedin.com/in/daoud-youssef-yany)
 	[YouTube]([daoud youssef - YouTube](https://www.youtube.com/@daoudyoussef7999)
 - Abdelrhman Orafy
-  [Linkedin](https://www.linkedin.com/in/abdelrhmanorafy/)
+  
 # Notion
 - https://cold-pyramid-f00.notion.site/NTI-Boot-camp-2436a7a7d31380e8981bc14fcf9c0a08?authuser=0
 - [(1) POC](https://www.notion.so/POC-1bd6a7a7d3138018a752e762825052ca)

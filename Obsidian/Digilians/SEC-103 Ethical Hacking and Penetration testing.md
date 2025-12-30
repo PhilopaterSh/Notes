@@ -19,59 +19,48 @@ The program is carefully structured to combine foundational theory with
 **•** **Career Readiness:** Acquire the practical skills and knowledge to work as a professional penetration tester specializing in network, web, and Active Directory security.
 **•** **Expert Instruction:** Learn directly from cybersecurity professionals with extensive industry experience.
 
-**•** **Certification Preparation:** Build a strong foundation to pursue globally recognized ethical hacking
+**•** **Certification Preparation:** Build a strong foundation to pursue globally recognized ethical hacking and penetration testing certifications.
 
-![](file:///C:/Users/mm/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png)and penetration testing certifications.
+**Deliv*ery F*ormat**
 
-**De****l****iv****e****r****y** **F****o****rmat**
-
-•      15 Theoretical Lectures × 3 hours each – Covering essential concepts, attack methodologies, and exploitation techniques.
-
-![](file:///C:/Users/mm/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png)•    15 Practical Lab Sessions × 2 hours each – Hands-on exercises simulating real-world
+•      15 Theoretical Lectures × 3 hours each –Covering essential concepts, attack methodologies, and exploitation techniques.
+•    15 Practical Lab Sessions × 2 hours each – Hands-on exercises simulating real-world
 
 offensive and defensive security operations.
 
-**Course** **A****s****s****e****s****s****m****e****nt**
-
+**Course** **Assessment**
 All components are mandatory and contribute to the final grade.
 
-|   |   |
-|---|---|
-|**Comp****o****ne****nt**|**Mark****s**|
-|•    6th Week Exam|10|
-|•    11th Week Exam|10|
-|•    Final Exam|40|
-|•    Module Projects|30|
-|•    Tasks|15|
-|**T****o****t****al**|**100**|
+|                      |           |
+| -------------------- | --------- |
+| **Component**        | **Marks** |
+| •    6th Week Exam   | 10        |
+| •    11th Week Exam  | 10        |
+| •    Final Exam      | 40        |
+| •    Module Projects | 30        |
+| •    Tasks           | 15        |
+| **Total**            | **100**   |
 
-![](file:///C:/Users/mm/AppData/Local/Temp/msohtmlclip1/01/clip_image005.png)**P****a****r****t** **1: Network Penetration Testing**
+**Part** **1: Network Penetration Testing**
 
 **Module Description**
 
 This module focuses on the essential techniques, methodologies, and tools used in network penetration testing. Participants will learn how to conduct effective information gathering, perform network scanning, identify and exploit vulnerabilities, and execute post-exploitation activities to maintain access and further assess the network’s security posture.
 
 **Module Objectives**
-
 •  Execute in-depth network reconnaissance and enumeration to identify potential attack surfaces.
-
 •  Exploit network vulnerabilities using industry-standard tools and custom attack techniques.
-
 •  Perform advanced post-exploitation operations, including maintaining access, pivoting, and lateral.
 
------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------
 
-**W****ee****k 1 – Introduction to Networking & Penetration Testing**
-
+**Week 1 – Introduction to Networking & Penetration Testing**
 •     Fundamentals of computer networks: protocols, layers, and topologies
-
 •     Introduction to penetration testing: scope, methodology, and legal considerations
-
 •    Ethical hacking vs. malicious hacking
-
 •     Penetration testing phases and frameworks
 
-**W****ee****k 2 – Reconnaissance & Vulnerability Scanning**
+**Week 2 – Reconnaissance & Vulnerability Scanning**
 •    Active vs. passive reconnaissance techniques
 •    Information gathering from public and internal sources
 •    Network mapping and service enumeration
