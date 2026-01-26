@@ -117,11 +117,11 @@
   https://youtu.be/abk7wT1EMzw
  ```Bash
 	curl -s "https://web.archive.org/cdx/search/cdx" --data-urlencode "url=example.com" --data-urlencode "collapse=urlkey" --data-urlencode "output=text" --data-urlencode "fl=original"
-	```
-	
-	```Bash
+ ```
+ 
+```Bash
 	cat out.txt | grep -E '\.xls|\.xml|\.xlsx|\.json|\.pdf|\.sql|\.docx|\.doc|\.pptx|\.ppt|\.gz|\.tar|\.tgz|\.bz2|\.log|\.cache|\.swf|\.dat|\.db|\.backup|\.vim|\.conf|\.csv|\.ini|\.bin|\.dll|\.sh|\.tar\.gz|\.bak|\.old|\.zip|\.rar|\.pem|\.key|\.pub|\.asc'
-	```
+```
 - Github Actions in Recon
 	  https://youtu.be/oAUWINBLbcM
 	  👉 github.com/SecFathy/CIScanner
@@ -433,8 +433,13 @@
 		  cargo build --release
 		  sudo cp target/release/findomain /usr/bin/
 		  findomain
-		  ```
-		  
+		```
+
+  # Scan 
+  **[Enum4linux](https://github.com/CiscoCXSecurity/enum4linux)**
+  [# LinPEAS - Linux Privilege Escalation Awesome Script](https://github.com/peass-ng/PEASS-ng/blob/master/linPEAS/README.md)
+  
+
 - # Exploiting & Scanning
 	- ### **XSS**
 		  XSS-Radar   https://github.com/bugbountyforum/XSS-Radar
@@ -447,6 +452,38 @@
 			7. XSS'OR  http://xssor.io/
 			8. [s0md3v/XSStrike: Most advanced XSS scanner.](https://github.com/s0md3v/XSStrike)
 
+# Smart Contract Security Audit
+When I spoke with **Shashank**, Co-Founder of **SolidityScan**, about Web3 and smart contract security, he shared the following roadmap with me, which I’m glad to pass along exactly as I received it, without any modifications. <@&1060675153048113253> 
+
+> **Road to Smart Contract Security Auditor:**
+> 1. Learn about Ethereum and read the white paper
+> 2. https://github.com/ethereumbook/ethereumbook (Highly recommended)
+> 3. https://ethereum.org/en/whitepaper/
+> 4. Learn smart contract programming
+> 5. https://cryptozombies.io (The fun way for basics)
+> 6. https://solidity-by-example.org (The harder way but in-depth knowledge)
+> 7. Learn basic Smart Contract bugs with examples
+> 8. https://swcregistry.io
+> 9. My Training materials 🙂
+> 10. Play CTF
+> 11. https://ethernaut.openzeppelin.com 
+> The way to do it is to try on your own and then look for solutions. For the 1st time, you might not be able to do more than 3 or 4 Don't get discouraged and do it almost 2-3 times.
+> 
+> My teammate Aditya wrote the latest solutions (https://blog.dixitaditya.com/series/ethernaut)
+> https://www.damnvulnerabledefi.xyz
+> Solution (https://blog.dixitaditya.com/series/damn-vulnerable-defi)
+> 
+> 12. Read more and more
+> 13. Huge list of public bugs https://code4rena.com/reports
+> 14. Read audit reports of security companies (https://github.com/Credshields/Audit-Reports/)
+> 15. Read blogs on the latest hacks (https://blog.solidityscan.com)
+> 16. Participate in BugBounties
+> https://code4rena.com/
+> https://immunefi.com/
+> 
+> Thank you!!
+
+https://youtu.be/ZE5yOSyRoo4?si=1uzEdEWMVZmBsgpc
 
 # Read this book
 - Peter Yaworsk wrote the book Web Hacking 101
@@ -469,6 +506,8 @@
 | Bountyfactory    | Public          | Public and private       |
 | BugBountyHQ      | Public          | Public and private       |
 | Intigriti        | Public          | Public and private       |
+| Hackenproof      | Public          |                          |
+|                  |                 |                          |
 
 ![[Pasted image 20250913123031.png]]
 ## OWASP WSTG
@@ -524,5 +563,7 @@ https://www.crewai.com/open-source
 - https://www.notion.so/Android-Pentesting-A0xTrojan-17b90050c67180d8a453fb4dfb6cfd2c?authuser=0
 - https://youtu.be/QwwLSyRzNwo?si=_WPVvlfNI1fS6cV2
 - https://www.youtube.com/watch?v=hf5mOFtdsz0&list=PL4S940IsHJYWhhYOpBk6Y-U9nTQq2omae
+- [Mobile Hacking Lab - Online Mobile Hacking Course for Aspiring Experts](https://www.mobilehackinglab.com/)
+- [Your First Android App](https://app.hextree.io/courses/first-android-app)
 - 
 

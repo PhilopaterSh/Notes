@@ -410,6 +410,10 @@ Human Vectors
 
 # Chapter 3
 
-### 
+### Website
+[Jigsaw | Phishing Quiz](https://phishingquiz.withgoogle.com/)
 ### Labs
 [Using Hydra to Crack Passwords | Cybersecurity Labs for Beginners](https://labex.io/labs/linux-using-hydra-to-crack-passwords-415960?course=cybersecurity-labs-for-beginners)
+
+
+###

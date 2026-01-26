@@ -125,3 +125,21 @@ kex --sl -s
 ```WSl
 kex --esm --ip -s
 ```
+
+
+## Update 
+sudo rm -rf /var/lib/apt/lists/*
+sudo rm -rf /var/log/*
+sudo apt remove --purge python3-jwt -y
+sudo apt update --allow-releaseinfo-change
+sudo apt upgrade -y
+sudo apt full-upgrade -y
+sudo apt --fix-broken install -y
+sudo apt install -f --fix-missing -y 
+sudo apt install -y kali-linux-default
+sudo apt install -y kali-linux-headless
+sudo apt install -y kali-tools-top10
+sudo apt install -y kali-win-kex --fix-missing
+sudo apt install -y libclang-cpp19 python3-fs samdump2
+sudo apt install -y openssh-server
+

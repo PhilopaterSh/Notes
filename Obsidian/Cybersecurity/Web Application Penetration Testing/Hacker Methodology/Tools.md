@@ -7,6 +7,12 @@
 | Dirb        |                                                                                              |
 | gau         | go install github.com/lc/gau/v2/cmd/gau@latest   <br>sudo cp ~/go/bin/gau /usr/local/bin<br> |
 
+### Msfconsole
+search exploit , search auxiliary
+use #
+options
+set
+run / exploit
 ### feroxbuster
 feroxbuster -u host
 
@@ -31,6 +37,9 @@ sudo apt install zaproxy
 zaproxy
 #### Clean url
 
+[**Enum4linux**](https://github.com/CiscoCXSecurity/enum4linux)
+
+[PimpMyKali (PMK) v 2.0 Release - TCM Security](https://tcm-sec.com/pimpmykali-pmk-v-2-0-release/)
 
 #### Wpscan
 [Sign Up | WPScan](https://wpscan.com/register/)

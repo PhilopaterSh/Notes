@@ -113,14 +113,14 @@ Required Tools & Software
 	11. In security context, why is understanding OSI layers important?
 	  ==**It allows precise identification of attack points and defense mechanisms.**==
 	12. What is the default subnet mask for a Class C IPv4 network? 
-	    ==**255.255.255.0****255.255.255.0**==
+	    ==**255.255.255.0**==
 	13. Which IP address type is used for one-to-many communication?
 	    ==**Multicast**==
 	14. What does NAT stand for?
 	    ==**Network Address Translation**==
 	15. How many usable host addresses are there in a /30 subnet?
 	    ==**2**==
-	    Host = 2^h -2 2^2 =4 -2 ===2== 
+	    Host = ((2^h) -2)  = 4 -2 = ===2== 
 	16. Which device operates primarily to connect different networks?
 	    ==**Router**==
 	17. Which command shows the IP configuration on a Windows PC?
