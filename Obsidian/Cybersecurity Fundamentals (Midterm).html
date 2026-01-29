@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cybersecurity Quiz</title>
+<style>
+    body { font-family: sans-serif; line-height: 1.6; padding: 1em; }
+    .question-block { margin-bottom: 2em; border-bottom: 1px solid #eee; padding-bottom: 1em; }
+    .question-text { font-weight: bold; }
+    .choices-list { list-style-type: none; padding-left: 20px; }
+    .correct-answer { font-weight: bold; color: #008000; }
+    .reason { font-style: italic; }
+    .footer { margin-top: 3em; padding-top: 1em; border-top: 1px solid #ccc; text-align: center; font-size: 0.9em; color: #666; }
+
+    /* New Styles for better formatting */
+    h1, h2.quiz-title {
+        color: #333;
+        border-bottom: 2px solid #ccc;
+        padding-bottom: 10px;
+    }
+    h2.lecture-title { /* For Lecture titles */
+        color: #0056b3;
+        border-bottom: 2px solid #0056b3;
+        padding-bottom: 10px;
+        margin-top: 3em;
+    }
+    .theory-question { /* The paragraph containing the question text */
+        font-weight: normal;
+        margin-top: 5px;
+        color: #555;
+    }
+    .theory-answer { /* The block containing the answer */
+        background-color: #f8f9fa;
+        border-left: 4px solid #17a2b8;
+        padding: 12px 15px;
+        margin-top: 10px;
+        font-style: normal; /* Override the italic from 'reason' */
+        color: #343a40;
+    }
+    .theory-answer ul, .theory-answer ol {
+        padding-left: 25px;
+        margin-top: 8px;
+    }
+     .theory-answer strong {
+        color: #0056b3;
+    }
+</style>
+</head>
+<body>
+<h1>Created By <a href="https://www.linkedin.com/in/philopater-shenouda/">PhilopaterSh</a></h1>
+<h2>Cybersecurity Fundamentals (Midterm) Quizzes</h2>
+
+<div class='question-block'>
+<p><span class='question-text'>Question 1:</span> A financial company notices repeated login attempts from unusual locations every 39 seconds. What is the most likely cause?</p>
+<ul class='choices-list'>
+<li>A. Random user errors</li>
+<li>B. Automated bot attacks</li>
+<li>C. Insider employee mistakes</li>
+<li>D. Routine software updates</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: The fixed, repetitive timing of 39 seconds is a clear signature of an automated script or "bot" designed to perform brute-force attacks at regular intervals.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 2:</span> A competitor’s system is compromised to steal trade secrets. This represents a cyberattack with the primary objective of:</p>
+<ul class='choices-list'>
+<li>A. Financial gain</li>
+<li>B. Business advantage</li>
+<li>C. Government espionage</li>
+<li>D. Accidental disruption</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: Stealing trade secrets or intellectual property is specifically aimed at gaining an unfair competitive edge in the marketplace.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 3:</span> Why must organizations patch vulnerabilities immediately after discovery?</p>
+<ul class='choices-list'>
+<li>A. Hackers never attack outdated systems</li>
+<li>B. Attackers constantly develop new techniques</li>
+<li>C. Firewalls prevent all attacks automatically</li>
+<li>D. Security updates slow down systems</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: Once a vulnerability is publicly known, attackers move extremely fast to exploit it; immediate patching is the only way to close that window of opportunity.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 4:</span> Government-sponsored cyberattacks usually aim to:</p>
+<ul class='choices-list'>
+<li>A. Collect intelligence or disrupt another country</li>
+<li>B. Steal small amounts of money</li>
+<li>C. Change browser themes for users</li>
+<li>D. Upgrade open-source software</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>A</span></p>
+<p class='reason'>Reason: Nation-state actors are motivated by political, military, or strategic goals, such as spying (espionage) or disabling a rival's infrastructure.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 5:</span> An attacker uses a fake login page to trick employees into providing credentials. This is an example of:</p>
+<ul class='choices-list'>
+<li>A. SQL Injection</li>
+<li>B. Phishing</li>
+<li>C. Denial of Service</li>
+<li>D. Buffer Overflow</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: Phishing relies on social engineering and deceptive content to trick victims into voluntarily handing over sensitive data like passwords.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 6:</span> A Man-in-the-Middle (MITM) attack is most dangerous because it allows the attacker to:</p>
+<ul class='choices-list'>
+<li>A. Crash the server immediately</li>
+<li>B. Intercept and manipulate confidential communications</li>
+<li>C. Delete system files remotely</li>
+<li>D. Only access public websites</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: The core danger of MITM is that the attacker remains invisible while reading, copying, or even changing the data being sent between two legitimate parties.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 7:</span> Which scenario best describes a planned cyberattack?</p>
+<ul class='choices-list'>
+<li>A. A random spam email received by millions</li>
+<li>B. A coordinated action to achieve a specific goal</li>
+<li>C. An accidental server misconfiguration</li>
+<li>D. A sudden spike in legitimate website traffic</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: Unlike random errors or traffic spikes, a planned attack is an intentional, organized effort with a defined target and desired outcome.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 8:</span> Which type of cyberattack would prevent legitimate users from accessing a service without necessarily stealing data?</p>
+<ul class='choices-list'>
+<li>A. SQL Injection</li>
+<li>B. Denial of Service (DoS)</li>
+<li>C. Phishing</li>
+<li>D. Digital Vandalism</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: The primary function of a DoS attack is to crash a system or flood it with traffic so that it becomes unavailable to those who need it.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 9:</span> An attacker sends input larger than the allocated memory buffer to execute malicious code. This is an example of:</p>
+<ul class='choices-list'>
+<li>A. ICMP Flood</li>
+<li>B. Buffer Overflow</li>
+<li>C. SYN Flood</li>
+<li>D. Shrew Attack</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: When a program receives more data than it can hold, the extra data "overflows" into adjacent memory, which attackers use to inject and run their own code.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 10:</span> The cybersecurity lesson “hackers never sleep” implies that organizations must:</p>
+<ul class='choices-list'>
+<li>A. Ignore minor vulnerabilities</li>
+<li>B. Continuously monitor and update their defenses</li>
+<li>C. Rely solely on static firewalls</li>
+<li>D. Assume attacks only happen during business hours</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: Because threats are automated and global, they can occur at any time, requiring around-the-clock monitoring and constant system updates.   </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 11:</span> A web server is flooded with thousands of fake requests, making it unavailable to legitimate users. What type of attack is this?</p>
+<ul class='choices-list'>
+<li>A. SQL Injection</li>
+<li>B. Denial of Service (DoS)</li>
+<li>C. Phishing</li>
+<li>D. Insider threat</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: Denial of Service is defined by the intentional exhaustion of system resources to block authorized access.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 12:</span> A network administrator detects repeated ICMP Echo Requests from a single IP. This indicates:</p>
+<ul class='choices-list'>
+<li>A. SYN Flood</li>
+<li>B. ICMP Flood</li>
+<li>C. Shrew Attack</li>
+<li>D. Buffer Overflow</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: ICMP Echo Requests are used by "ping"; a flood of these packets is a specific type of DoS attack meant to overwhelm the network interface.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 13:</span> Which technique helps distribute traffic to prevent a DoS attack from overwhelming a single server?</p>
+<ul class='choices-list'>
+<li>A. Load balancer</li>
+<li>B. Turning off the server</li>
+<li>C. Ignoring all traffic</li>
+<li>D. Enabling encryption</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>A</span></p>
+<p class='reason'>Reason: Load balancers act as traffic cops, distributing incoming requests across several servers so that no single machine becomes a point of failure.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 14:</span> A DNS server is receiving excessive queries, causing websites to be unreachable. What type of attack is this?</p>
+<ul class='choices-list'>
+<li>A. Buffer Overflow</li>
+<li>B. DNS Server Attack</li>
+<li>C. Phishing</li>
+<li>D. Shrew Attack</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: By attacking the DNS server, the attacker prevents the system from translating website names (like https://www.google.com/search?q=google.com) into IP addresses, effectively "hiding" the sites.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 15:</span> The command “ping -f” is dangerous because it:</p>
+<ul class='choices-list'>
+<li>A. Sends packets very slowly</li>
+<li>B. Floods a target with ICMP packets as fast as possible</li>
+<li>C. Tests firewalls only</li>
+<li>D. Encrypts packets for security</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: The "-f" stands for "flood." It sends packets without waiting for a response, which can easily saturate a network or crash a target device.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 16:</span> Sending oversized ICMP packets to crash an old server is known as:</p>
+<ul class='choices-list'>
+<li>A. Shrew Attack</li>
+<li>B. Ping of Death</li>
+<li>C. SYN Flood</li>
+<li>D. SQL Injection</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: Historical systems couldn't handle packets larger than the maximum IP size (65,535 bytes), causing them to crash upon receipt of such malformed data.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 17:</span> A buffer overflow attack occurs due to:</p>
+<ul class='choices-list'>
+<li>A. Slow internet speed</li>
+<li>B. Unsafe memory handling and poor input validation</li>
+<li>C. Firewall misconfiguration</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: It is a fundamental programming flaw where the software does not check if the incoming data fits within the memory space allocated for it.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 18:</span> SYN Flood attacks exploit which protocol’s mechanism?</p>
+<ul class='choices-list'>
+<li>A. TCP three-way handshake</li>
+<li>B. ICMP echo response</li>
+<li>C. DNS server caching</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>A</span></p>
+<p class='reason'>Reason: The attacker sends many "SYN" (synchronize) requests but never sends the final "ACK" (acknowledge), leaving the server waiting and consuming resources until it crashes.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 19:</span> Shrew Attacks are difficult to detect because they:</p>
+<ul class='choices-list'>
+<li>A. Send massive amounts of data</li>
+<li>B. Mimic normal traffic patterns using low-rate timed bursts</li>
+<li>C. Disable the victim’s IDS</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: Instead of a constant flood, Shrew attacks use short, sharp pulses that exploit TCP retransmission timers, making the traffic look legitimate to most monitors.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 20:</span> Which attack is mostly historical but still taught to understand network vulnerabilities?</p>
+<ul class='choices-list'>
+<li>A. Modern ransomware</li>
+<li>B. Ping of Death</li>
+<li>C. SQL Injection</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: Modern operating systems are built to handle oversized packets, but the Ping of Death remains a vital lesson in protocol-based vulnerabilities.   </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 21:</span> What is the main goal of cybersecurity?</p>
+<ul class='choices-list'>
+<li>A. Increase internet speed</li>
+<li>B. Protect systems, networks, and data from digital attacks</li>
+<li>C. Eliminate all cyber threats</li>
+<li>D. Replace physical security</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: Cybersecurity is the comprehensive practice of shielding electronic infrastructure and data assets from malicious interference or theft.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 22:</span> Which of the following is NOT a cybersecurity domain?</p>
+<ul class='choices-list'>
+<li>A. Network Security</li>
+<li>B. Application Security</li>
+<li>C. Cloud Security</li>
+<li>D. Mechanical Security</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>D</span></p>
+<p class='reason'>Reason: Mechanical security involves physical locks and hardware, whereas cybersecurity domains focus exclusively on digital and networked environments.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 23:</span> Why is cybersecurity increasingly important today?</p>
+<ul class='choices-list'>
+<li>A. More social media users</li>
+<li>B. Digital dependency is increasing</li>
+<li>C. Faster computers</li>
+<li>D. Lower internet costs</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: Since modern life and critical infrastructure (banks, hospitals, power) are now fully digital, a cyber breach can have devastating real-world consequences.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 24:</span> Which of the following best describes a cyberattack?</p>
+<ul class='choices-list'>
+<li>A. An accidental hardware failure</li>
+<li>B. Physical theft of a laptop</li>
+<li>C. A deliberate attempt to exploit digital systems</li>
+<li>D. A routine software update</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: A cyberattack is defined by the "intent" to cause harm or gain unauthorized access through digital means.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 25:</span> What does the “C” in the CIA Triad stand for?</p>
+<ul class='choices-list'>
+<li>A. Control</li>
+<li>B. Connectivity</li>
+<li>C. Confidentiality</li>
+<li>D. Compliance</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: Confidentiality is the principle of ensuring that private data remains private and inaccessible to unauthorized entities.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 26:</span> Preventing unauthorized access to sensitive data relates to which CIA principle?</p>
+<ul class='choices-list'>
+<li>A. Integrity</li>
+<li>B. Availability</li>
+<li>C. Confidentiality</li>
+<li>D. Authentication</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: Restricting data access only to those with the proper permission is the core objective of confidentiality.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 27:</span> A ransomware attack mainly affects which CIA principle?</p>
+<ul class='choices-list'>
+<li>A. Confidentiality</li>
+<li>B. Integrity</li>
+<li>C. Availability</li>
+<li>D. Authentication</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: Ransomware works by denying you the use of your own files (Availability) by encrypting them until a ransom is paid.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 28:</span> Data modification without permission is a violation of:</p>
+<ul class='choices-list'>
+<li>A. Confidentiality</li>
+<li>B. Availability</li>
+<li>C. Integrity</li>
+<li>D. Non-repudiation</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: Integrity ensures that information is trustworthy and has not been altered or corrupted during storage or transmission.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 29:</span> Which of the following is an example of an external attacker?</p>
+<ul class='choices-list'>
+<li>A. A careless employee</li>
+<li>B. A disgruntled IT staff member</li>
+<li>C. A nation-state hacker</li>
+<li>D. A former employee with active access</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: External attackers are parties outside the organization's payroll or physical premises, such as hackers from other countries.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 30:</span> What is the biggest cause of cybersecurity breaches?</p>
+<ul class='choices-list'>
+<li>A. Software bugs</li>
+<li>B. Weak firewalls</li>
+<li>C. Human error</li>
+<li>D. Hardware failure</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: Human actions, such as falling for phishing scams or using weak passwords, remain the most common point of entry for attackers.   </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 31:</span> Phishing attacks mainly rely on:</p>
+<ul class='choices-list'>
+<li>A. Network bugs</li>
+<li>B. Human psychology</li>
+<li>C. Hardware failures</li>
+<li>D. Encryption weaknesses</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: Phishing is a "social engineering" attack; it exploits human emotions like fear, urgency, or curiosity to bypass technical security.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 32:</span> Which of the following is an example of social engineering?</p>
+<ul class='choices-list'>
+<li>A. SQL injection</li>
+<li>B. Buffer overflow</li>
+<li>C. A phishing email</li>
+<li>D. Firewall misconfiguration</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: Because it involves interacting with and deceiving a human being, phishing is the classic example of social engineering.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 33:</span> What is ransomware designed to do?</p>
+<ul class='choices-list'>
+<li>A. Steal credentials silently</li>
+<li>B. Encrypt files and demand payment</li>
+<li>C. Monitor network traffic</li>
+<li>D. Improve system security</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: Ransomware is essentially a digital kidnapping of data, where the attacker demands money in exchange for the decryption key.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 34:</span> Which of the following is considered a strong password?</p>
+<ul class='choices-list'>
+<li>A. Ahmed1999!</li>
+<li>B. P@ssw0rd123</li>
+<li>C. MyDogIsTheBestDogEver123!</li>
+<li>D. 12345678</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: Security experts recommend "passphrases" because their extreme length makes them nearly impossible to crack via brute-force tools.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 35:</span> Why is password reuse dangerous?</p>
+<ul class='choices-list'>
+<li>A. It slows down login speed</li>
+<li>B. It increases server load</li>
+<li>C. One breach can compromise multiple accounts</li>
+<li>D. It breaks encryption</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: If you use the same password for email and banking, a leak at the email provider gives the attacker the keys to your bank account as well.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 36:</span> What is credential stuffing?</p>
+<ul class='choices-list'>
+<li>A. Guessing common passwords</li>
+<li>B. Using leaked credentials on other services</li>
+<li>C. Installing malware</li>
+<li>D. Encrypting sensitive data</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: Attackers use automated tools to try millions of previously leaked username/password pairs on various websites, hoping for a match.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 37:</span> What is the main purpose of Multi-Factor Authentication (MFA)?</p>
+<ul class='choices-list'>
+<li>A. To shorten passwords</li>
+<li>B. To replace encryption</li>
+<li>C. To add additional verification layers</li>
+<li>D. To speed up the login process</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: MFA provides a second line of defense; even if an attacker has your password, they still cannot get in without your physical phone or fingerprint.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 38:</span> Which tool helps users safely store long, complex passwords?</p>
+<ul class='choices-list'>
+<li>A. Firewall</li>
+<li>B. Antivirus</li>
+<li>C. Password manager</li>
+<li>D. VPN</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: Password managers allow you to have a unique, 20-character password for every site without needing to remember any of them.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 39:</span> What is the safest response to a suspicious email link?</p>
+<ul class='choices-list'>
+<li>A. Click it to check the website</li>
+<li>B. Ask for confirmation from the sender</li>
+<li>C. Ignore or report it</li>
+<li>D. Forward it to your friends</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: Interactive with a malicious link can trigger a download; the only safe move is to delete or report the email to IT.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 40:</span> Which of the following practices best improves cyber hygiene?</p>
+<ul class='choices-list'>
+<li>A. Using public Wi-Fi without a VPN</li>
+<li>B. Ignoring software updates</li>
+<li>C. Regular software updates and data backups</li>
+<li>D. Writing passwords on a sticky note</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: Good cyber hygiene is built on consistency: keeping software patched and ensuring data can be recovered if an attack occurs.   </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 41:</span> What is the primary definition of a Man-in-the-Middle (MITM) attack?</p>
+<ul class='choices-list'>
+<li>A. Destroying a physical server</li>
+<li>B. Secretly intercepting communication between a user and a server</li>
+<li>C. Targeting computers that are not connected to the internet</li>
+<li>D. Deleting an individual's personal email</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: MITM occurs when an attacker inserts themselves into a communication stream to relay—and potentially alter—the conversation.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 42:</span> Which of the following is NOT a potential impact of an MITM attack?</p>
+<ul class='choices-list'>
+<li>A. Identity theft</li>
+<li>B. Financial loss</li>
+<li>C. Hardware overheating</li>
+<li>D. Account compromise</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: These attacks focus on the theft of data and sessions; they are not designed to cause physical damage to computer hardware components.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 43:</span> Which step in an MITM attack involves scanning for weaknesses like unsecured Wi-Fi?</p>
+<ul class='choices-list'>
+<li>A. Step 1: Vulnerability Scanning</li>
+<li>B. Step 2: Phishing or Redirection</li>
+<li>C. Step 3: Interception or Decryption</li>
+<li>D. Step 4: Analysis and Exploitation</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>A</span></p>
+<p class='reason'>Reason: Before the attack begins, the hacker must identify a weakness (like a public café's Wi-Fi) to use as their entry point.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 44:</span> In a Cross-Site Scripting (XSS) attack, what specific information do malicious scripts often steal?</p>
+<ul class='choices-list'>
+<li>A. The computer’s serial number</li>
+<li>B. Session cookies and user credentials</li>
+<li>C. The Wi-Fi network password</li>
+<li>D. The power consumption status of the server</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: By stealing your "Session Cookie," an attacker can trick a website into thinking they are already logged in as you.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 45:</span> How does a DNS Spoofing attack deceive the victim?</p>
+<ul class='choices-list'>
+<li>A. By sending a malicious email attachment</li>
+<li>B. By redirecting victims to a fake website that looks legitimate</li>
+<li>C. By physically stealing the victim's router</li>
+<li>D. By guessing the victim's social media password</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: DNS Spoofing changes the "address book" of the internet so that when you type "bank.com," your computer goes to the hacker's fake site instead.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 46:</span> What happens during an SSL Hijacking attack?</p>
+<ul class='choices-list'>
+<li>A. The attacker speeds up the user's internet encryption</li>
+<li>B. The attacker issues a legitimate SSL certificate for the user</li>
+<li>C. The attacker blocks all incoming emails to the user's computer</li>
+<li>D. The attacker breaks or downgrades the encrypted connection between user and server</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>D</span></p>
+<p class='reason'>Reason: SSL hijacking attempts to remove the "S" from "HTTPS," making the data flow in plain text so the attacker can read it.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 47:</span> Where does Wi-Fi Network Eavesdropping most commonly occur?</p>
+<ul class='choices-list'>
+<li>A. On secure military bases</li>
+<li>B. Within private, wired home networks</li>
+<li>C. On public or unsecured Wi-Fi networks (e.g., in cafés or airports)</li>
+<li>D. Over satellite-to-satellite connections</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: Public networks often lack encryption, allowing anyone nearby with simple software to see all the data being sent by other users.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 48:</span> In the “Cookie Theft” scenario, how does the attacker access the account?</p>
+<ul class='choices-list'>
+<li>A. By guessing the user's password repeatedly</li>
+<li>B. By using a recovery email link</li>
+<li>C. By using stolen session cookies to bypass the login process</li>
+<li>D. By calling the website's customer support</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: Once the attacker has your session cookie, they don't need your password; the website already believes they are you.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 49:</span> What is the role of “Phishing or Redirection” in an MITM attack?</p>
+<ul class='choices-list'>
+<li>A. To decrypt data immediately</li>
+<li>B. To send fake links to malicious sites and intercept the resulting traffic</li>
+<li>C. To upgrade the victim's software</li>
+<li>D. To scan for open ports</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: This step is the "hook" that draws the victim into the attacker's controlled environment.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 50:</span> Which data type is explicitly listed as sensitive data often stolen during MITM attacks?</p>
+<ul class='choices-list'>
+<li>A. IP address</li>
+<li>B. Credit card numbers</li>
+<li>C. Browser history</li>
+<li>D. Screen resolution</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: Because MITM attacks often target financial transactions and logins, credit card data is a primary target.   </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 51:</span> Why is the simple concept of a computer as a “Data Processor” considered insufficient today?</p>
+<ul class='choices-list'>
+<li>A. Because modern computers only use digital input</li>
+<li>B. Because modern computers are slower than data processors</li>
+<li>C. Because the term assumes a computer can only perform one specific task</li>
+<li>D. Because modern computers do not provide output data</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: Old-fashioned processors were fixed-function; modern computers are universal machines that change their function based on the software they run.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 52:</span> The transition from a single-task processor to the Programmable Data Processor (Turing Model) adds which crucial element?</p>
+<ul class='choices-list'>
+<li>A. A monitor</li>
+<li>B. A Control Unit</li>
+<li>C. The program</li>
+<li>D. Input data</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: The "Program" is the set of instructions that tells the hardware how to behave, allowing one machine to be a calculator, a game console, or a typewriter.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 53:</span> In the Von Neumann Model, programs and data are treated as logically the same because they are both represented by:</p>
+<ul class='choices-list'>
+<li>A. Analog signals</li>
+<li>B. 0’s and 1’s (binary)</li>
+<li>C. Electric current only</li>
+<li>D. High-level code</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: This revolutionary concept allowed computers to store instructions in the same memory as data, using the universal language of binary digits.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 54:</span> Which subsystem of the CPU is responsible for mathematical calculations and logical comparisons?</p>
+<ul class='choices-list'>
+<li>A. Control Unit (CU)</li>
+<li>B. Memory</li>
+<li>C. Arithmetic Logic Unit (ALU)</li>
+<li>D. Input/Output (I/O)</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: The ALU is the "engine" of the processor where all actual data processing and math occur.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 55:</span> Which category of computer is often found embedded into larger devices like coffee makers or car dashboards?</p>
+<ul class='choices-list'>
+<li>A. Mobile Devices</li>
+<li>B. Personal Computers</li>
+<li>C. Embedded Computers</li>
+<li>D. Thin Clients</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: Embedded computers are stripped-down, specialized systems hidden inside other products to manage specific operations.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 56:</span> What is a microcomputer primarily designed for?</p>
+<ul class='choices-list'>
+<li>A. Managing massive corporate databases</li>
+<li>B. Performing scientific calculations for a whole university</li>
+<li>C. Use by one person at a time</li>
+<li>D. Connecting continents together</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: A microcomputer (like a laptop or desktop) is a personal device intended for a single user's productivity and entertainment.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 57:</span> The main circuit board that connects all other hardware components to communicate is the:</p>
+<ul class='choices-list'>
+<li>A. Central Processing Unit (CPU)</li>
+<li>B. Random Access Memory (RAM)</li>
+<li>C. Motherboard</li>
+<li>D. Graphics Card</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: The motherboard provides the physical tracks (buses) and slots that allow the CPU, RAM, and storage to talk to each other.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 58:</span> Which type of memory is non-volatile and holds the BIOS instructions used to test hardware at startup?</p>
+<ul class='choices-list'>
+<li>A. RAM</li>
+<li>B. Cache Memory</li>
+<li>C. Read Only Memory (ROM)</li>
+<li>D. Main Memory</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: ROM is "Non-Volatile," meaning it doesn't forget its data when the power is turned off, which is essential for starting the computer.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 59:</span> [QUESTION MISSING FROM SOURCE]</p>
+<p class='reason'>This question was not found in any of the source documents.</p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 60:</span> Which Operating System technique uses two or more physical CPUs to run multiple processes in true parallel?</p>
+<ul class='choices-list'>
+<li>A. Multithreading</li>
+<li>B. Multitasking</li>
+<li>C. Parallel Processing</li>
+<li>D. Multiprocessing</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>D</span></p>
+<p class='reason'>Reason: Multiprocessing involves sharing the workload across multiple physical processor units to increase speed and efficiency.   </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 61:</span> How many bits are in an IPv4 address?</p>
+<ul class='choices-list'>
+<li>A. 32</li>
+<li>B. 64</li>
+<li>C. 128</li>
+<li>D. 16</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>A</span></p>
+<p class='reason'>Reason: IPv4 uses four 8-bit numbers (octets) separated by dots, resulting in a 32-bit address.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 62:</span> How many bits are in an IPv6 address?</p>
+<ul class='choices-list'>
+<li>A. 32</li>
+<li>B. 64</li>
+<li>C. 128</li>
+<li>D. 16</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: IPv6 was created to replace IPv4, providing a massive 128-bit address space to accommodate every device on earth.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 63:</span> In a typical LAN, what device is responsible for connecting multiple devices and forwarding data based on MAC addresses?</p>
+<ul class='choices-list'>
+<li>A. Router</li>
+<li>B. Switch</li>
+<li>C. Hub</li>
+<li>D. Firewall</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+<p class='reason'>Reason: Switches are intelligent devices that learn the MAC addresses of connected computers to send data exactly where it needs to go.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 64:</span> Which device connects multiple networks and routes packets between them?</p>
+<ul class='choices-list'>
+<li>A. Hub</li>
+<li>B. Switch</li>
+<li>C. Router</li>
+<li>D. Access Point</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: A Router acts as a bridge between networks (like your home network and the internet), directing traffic between them.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 65:</span> In a private network, IP addresses are usually in which of the following ranges?</p>
+<ul class='choices-list'>
+<li>A. 192.168.x.x</li>
+<li>B. 8.8.x.x</li>
+<li>C. 172.32.x.x</li>
+<li>D. 1.1.x.x</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>A</span></p>
+<p class='reason'>Reason: The 192.168.0.0 range is a worldwide standard for internal, private home and office networks.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 66:</span> When using ICMP ping, what does the “time” field in the response indicate?</p>
+<ul class='choices-list'>
+<li>A. The time it took to open a TCP connection</li>
+<li>B. The system uptime of the target</li>
+<li>C. The round-trip time for the packet to reach the target and return</li>
+<li>D. The delay before packet fragmentation</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: Ping measures "Latency"—the time it takes for a message to go to a destination and come back.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 67:</span> Which network type covers a large geographical area and typically uses public networks to connect LANs?</p>
+<ul class='choices-list'>
+<li>A. LAN</li>
+<li>B. MAN</li>
+<li>C. WAN</li>
+<li>D. PAN</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: A Wide Area Network (WAN) is the largest type of network, with the Internet being the most famous example.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 68:</span> In TCP/IP, which layer is responsible for addressing and routing packets across networks?</p>
+<ul class='choices-list'>
+<li>A. Application Layer</li>
+<li>B. Transport Layer</li>
+<li>C. Network Layer</li>
+<li>D. Data Link Layer</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: The Network Layer is where IP (Internet Protocol) lives, handling the logic of how data travels across different networks.  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 69:</span> What is the main function of a subnet mask in a network?</p>
+<ul class='choices-list'>
+<li>A. Encrypt data packets</li>
+<li>B. Measure network speed</li>
+<li>C. Divide the IP address into network and host portions</li>
+<li>D. Assign MAC addresses</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+<p class='reason'>Reason: The subnet mask is a filter that tells the computer which part of the IP address refers to the "neighborhood" (network) and which refers to the "house" (host).  </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 70:</span> If a device cannot be reached via ping, it could be because:</p>
+<ul class='choices-list'>
+<li>A. The device is turned off</li>
+<li>B. A firewall is blocking ICMP traffic</li>
+<li>C. The network cable is disconnected</li>
+<li>D. All of the above</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>D</span></p>
+<p class='reason'>Reason: Ping failure is a general connectivity symptom that can be caused by physical disconnection, power issues, or security software blocking the signal. </p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 71:</span> What does OSI stand for?</p>
+<ul class='choices-list'>
+<li>A. Open Security Infrastructure</li>
+<li>B. Operating Signal Interface</li>
+<li>C. Open Systems Interconnection</li>
+<li>D. Operational System Interface</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 72:</span> How many layers are in the OSI model?</p>
+<ul class='choices-list'>
+<li>A. 8</li>
+<li>B. 6</li>
+<li>C. 5</li>
+<li>D. 7</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>D</span></p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 73:</span> Which layer of the OSI model is responsible for IP addressing?</p>
+<ul class='choices-list'>
+<li>A. Network</li>
+<li>B. Data Link</li>
+<li>C. Transport</li>
+<li>D. Physical</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>A</span></p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 74:</span> What is the default subnet mask for a Class C IPv4 network?</p>
+<ul class='choices-list'>
+<li>A. 255.0.0.0</li>
+<li>B. 255.255.0.0</li>
+<li>C. 255.255.255.0</li>
+<li>D. 255.255.255.255</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>C</span></p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 75:</span> What is the primary purpose of a routing table in a router?</p>
+<ul class='choices-list'>
+<li>A. To store MAC addresses of connected devices</li>
+<li>B. To determine the best path for packet forwarding</li>
+<li>C. To encrypt network traffic</li>
+<li>D. To manage application-layer services</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 76:</span> In the 'Security Onion' model, which layer is considered the innermost core that all other layers are designed to protect?</p>
+<ul class='choices-list'>
+<li>A. Perimeter Security</li>
+<li>B. Data Security</li>
+<li>C. Network Security</li>
+<li>D. Policies and Awareness</li>
+</ul>
+<p>Correct Answer: <span class='correct-answer'>B</span></p>
+</div>
+
+<h2 class="lecture-title">Lecture 1</h2>
+<div class='question-block'>
+<p><span class='question-text'>Question 1: Theoretical Foundations</span></p>
+<p class="theory-question">What are the core contributions of the Turing Machine and the Von Neumann Model to modern computing?</p>
+<div class='theory-answer'><strong>Answer:</strong><br>The Turing Machine established the theoretical model of a universal programmable device that accepts input, processes it via instructions, and produces output. The Von Neumann Model added the practical architecture used today, proposing that both data and programs should be stored in the same Memory. It defined the four main hardware subsystems: Memory, Arithmetic Logic Unit (ALU), Control Unit (CU), and Input/Output.</div>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 2: Memory and Storage Differences</span></p>
+<p class="theory-question">Briefly distinguish between RAM vs. ROM and Magnetic Hard Drives vs. SSDs.</p>
+<div class='theory-answer'><strong>Answer:</strong><br>
+<ul>
+<li><strong>Ram vs. ROM:</strong> RAM the memory that holds data and program instructions as the CPU works with them. RAM is volatile, meaning it holds data only when the power is on. When the power is off, RAM’s contents are lost. ROM : It is the memory that holds the Basic Input Output System (BIOS) of the computer, which is responsible of testing all the PC hardware as soon as it is turned on.</li>
+<li><strong>HDD vs. SSD:</strong> Magnetic Hard Drives (HDD) use moving mechanical parts to read magnetic disks, making them slower. Solid State Drives (SSD) use flash memory with no moving parts, making them significantly faster, more durable, and more efficient.</li>
+</ul>
+</div>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 3: OS Processing Techniques</span></p>
+<p class="theory-question">How does an Operating System use Multitasking, Multithreading, and Multiprocessing to improve performance?</p>
+<div class='theory-answer'><strong>Answer:</strong><br>
+<ul>
+<li><strong>Multitasking:</strong> The OS rotates rapidly between different programs on a single core to simulate simultaneous execution.</li>
+<li><strong>Multithreading:</strong> The OS rotates between different instructions (threads) within the same program to speed up specific tasks.</li>
+<li><strong>Multiprocessing:</strong> The OS utilizes multiple cores or CPUs to execute different programs truly simultaneously, rather than sequentially.</li>
+</ul>
+</div>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 4: Network Types and Structures</span></p>
+<p class="theory-question">Summarize the differences between LAN and WAN, and compare Client/Server networks to Peer-to-Peer networks.</p>
+<div class='theory-answer'><strong>Answer:</strong><br>
+<ul>
+<li><strong>LAN vs. WAN:</strong> A LAN (Local Area Network) connects computers in a small physical area using cables or Wi-Fi. A WAN (Wide Area Network) connects multiple LANs across large geographical distances using routers and leased lines.</li>
+<li><strong>Structure:</strong> In Client/Server networks, a central server manages security and resources while clients share the workload. In Peer-to-Peer (P2P) networks, all computers are equal, sharing files and devices directly with one another without a central server.</li>
+</ul>
+</div>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 5: Network Topologies</span></p>
+<p class="theory-question">Draw the four main network topologies (Bus, Star, Ring, Mesh) which is the most cheapest and which is most reliable</p>
+<div class='theory-answer'><strong>Answer:</strong><br>Bus is the cheapest and Mesh is the most reliable.<br><img src="./Pasted image 20260129170200.png" alt="Network Topologies" style="width:100%; max-width:600px; height:auto; display:block; margin-top:10px;"></div>
+</div>
+
+<h2 class="lecture-title">Lecture 2</h2>
+<div class='question-block'>
+<p><span class='question-text'>Question 1: The CIA Triad</span></p>
+<p class="theory-question">Explain the three core objectives of cybersecurity known as the CIA Triad. Provide a brief definition of each component and explain why all three are necessary for comprehensive information security.</p>
+<div class='theory-answer'><strong>Answer:</strong><br>The CIA Triad consists of Confidentiality, Integrity, and Availability. Confidentiality ensures that private or confidential information is not disclosed to unauthorized individuals and that individuals control what information about them is collected and shared. Integrity ensures that information and programs are changed only in authorized ways (data integrity) and that systems perform their intended functions without manipulation (system integrity). Availability ensures that systems work promptly and services are not denied to authorized users. All three are essential because protecting only one or two aspects leaves systems vulnerable to different types of attacks and compromises overall security.</div>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 2: Passive vs. Active Attacks</span></p>
+<p class="theory-question">Differentiate between passive and active security attacks. Provide examples of each type and explain which one is typically more difficult to detect and why.</p>
+<div class='theory-answer'><strong>Answer:</strong><br>Passive attacks attempt to learn or make use of information from a system without affecting system resources. Examples include eavesdropping and traffic analysis. These attacks do not modify data or disrupt operations.<br>Active attacks attempt to alter system resources or affect their operation. Examples include masquerade (impersonation), replay, modification of messages, and denial of service.<br>Passive attacks are typically more difficult to detect because they do not alter data or disrupt operations, leaving no obvious traces. Since the attacker only monitors communication without making changes, the system functions normally, making detection challenging without specialized monitoring tools.</div>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 3: Security Breach Scenario (Easy Scenario)</span></p>
+<p class="theory-question">Scenario: A hospital discovers that patient medical records were accessed by an unauthorized employee who viewed confidential information but did not modify or delete any data. The employee was properly authenticated to the hospital system but accessed records beyond their authorized scope. Identify which security objective was violated and explain what security service should have prevented this incident.</p>
+<div class='theory-answer'><strong>Answer:</strong><br>The primary security objective violated was Confidentiality, specifically Data Confidentiality and Privacy.<br>The security service that should have prevented this is Access Control, which controls who can access resources, Proper access control would have restricted the employee to only view records within their scope of work, preventing unauthorized access to other patients.</div>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 4: Cryptographic Algorithms</span></p>
+<p class="theory-question">Describe the three main categories of cryptographic algorithms: keyless, single-key, and two-key algorithms.</p>
+<div class='theory-answer'><strong>Answer:</strong><br>Keyless algorithms do not use keys and include cryptographic hash functions that create fixed-length digests. Use case: verifying data integrity or creating message authentication codes.<br>Single-key (symmetric) algorithms use one secret key shared between parties for both encryption and decryption. Use case: encrypting large amounts of data quickly<br>Two-key (asymmetric) algorithms use a private key (kept secret) and public key (shared openly). Use case: secure key exchange, digital signatures, or encrypting</div>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 5: mention the elements of cyber security</span></p>
+<div class='theory-answer'><strong>Answer:</strong><br>CIAAA<br>Confidentiality<br>Integrity<br>Availability<br>Authenticity<br>Accountability</div>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 6: What is meant by Human Attack Surface</span></p>
+<div class='theory-answer'><strong>Answer:</strong><br>It refers to vulnerabilities created by personnel or outsiders, such as social engineering, human error, and trusted insiders.</div>
+</div>
+
+<h2 class="lecture-title">Lecture 3</h2>
+<div class='question-block'>
+<p><span class='question-text'>Question 1: what are Cyberattack Objective?</span></p>
+<div class='theory-answer'><strong>Answer:</strong><br>Financial gain<br>Business advantage<br>Government attacks</div>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 2: mention 5 of common cyber attacks</span></p>
+<div class='theory-answer'><strong>Answer:</strong><br>
+<ol>
+<li>DOS denial of service</li>
+<li>MIM (man in the middle)</li>
+<li>SQL injection</li>
+<li>spamming and phishing</li>
+<li>cryptojacking</li>
+<li>zero-day exploitation</li>
+</ol>
+</div>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 3: Explain what a Denial of Service (DoS) attack is and describe its primary impact on targeted systems</span></p>
+<div class='theory-answer'><strong>Answer:</strong><br>A Denial of Service (DoS) attack targets servers or online services by overwhelming them with automated requests, making them slow, unstable, or completely unavailable to allowed users. primary impact is service disruption; legitimate users cannot access websites or applications, potentially causing business losses and reputation damage.</div>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 4: List at least two symptoms that indicate a system might be under a DoS attack.</span></p>
+<div class='theory-answer'><strong>Answer:</strong><br>(1) inability to access a website or service<br>(2) extremely slow response times or delays in loading content<br>(3) increased spam emails combined with overall poor system performance.</div>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 5: Describe three different mitigation techniques that can protect systems from DoS attacks. For each technique describe it shortly</span></p>
+<div class='theory-answer'><strong>Answer:</strong><br><strong>Traffic routing and filtering:</strong> routes suspicious traffic to scrubbing centers where rate-limiting and CAPTCHA verification filter out malicious requests while allowing legitimate users through.<br><strong>Load balancers:</strong> These distribute incoming traffic across multiple servers, detecting high CPU usage and automatically redirecting connections to underutilized nodes.<br><strong>Intrusion Detection and Prevention Systems (IDS/IPS):</strong> IDS detects attacks by monitoring for excessive login attempts or packet floods, alerting security teams for response, while IPS actively blocks malicious traffic by dropping packets and temporarily blocking attacker IP ranges automatically.</div>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 6: List 5 Types of DoS Attacks</span></p>
+<div class='theory-answer'><strong>Answer:</strong><br>
+<ol>
+<li>DNS server attacks</li>
+<li>http server attacks</li>
+<li>icmp flooding</li>
+<li>Buffer over flow attack</li>
+<li>Large file download attack</li>
+<li>Syn flood attack</li>
+<li>Ping of death attack</li>
+</ol>
+</div>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 7: Compare between ping flood and syn flood attack</span></p>
+<div class='theory-answer'><strong>Answer:</strong><br>SYN Flood attacks exploit the TCP three-way handshake by sending numerous SYN packets but never completing the connection with the final ACK. This causes the server to keep half-open connections waiting. ICMP Flooding attacks use ping requests (ICMP Echo Request packets) sent in massive quantities to overwhelm the target. The command ping -f sends packets. Both attacks consume bandwidth and CPU resources.</div>
+</div>
+
+<h2 class="lecture-title">Lecture 4</h2>
+<div class='question-block'>
+<p><span class='question-text'>Question 1: Define a Man-in-the-Middle (MITM) attack</span></p>
+<div class='theory-answer'><strong>Answer:</strong><br>A Man-in-the-Middle (MITM) attack occurs when a hacker secretly intercepts and potentially modifies communication between a user and a legitimate server.<br><img src="./Pasted image 20260129170839.png" alt="Network Topologies" style="width:100%; max-width:600px; height:auto; display:block; margin-top:10px;"></div>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 2: What is the impact of MIM attack</span></p>
+<div class='theory-answer'><strong>Answer:</strong><br>
+<ol>
+<li>Identity theft</li>
+<li>Financial loss</li>
+<li>Account compromise/ information breach</li>
+</ol>
+</div>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 3: What are common steps of MIM attack ?</span></p>
+<div class='theory-answer'><strong>Answer:</strong><br>
+<ol>
+<li>Vulnerability Scanning</li>
+<li>Phishing or Redirection</li>
+<li>Decryption and Data Theft</li>
+</ol>
+</div>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 4: What are Major types of MIM attack ?</span></p>
+<div class='theory-answer'><strong>Answer:</strong><br>
+<ol>
+<li>Cross-Site Scripting (XSS)</li>
+<li>DNS Spoofing / HTTP Spoofing</li>
+<li>SSL Hijacking</li>
+<li>Email Hijacking</li>
+<li>Wi-Fi Network Eavesdropping</li>
+<li>Cookie Theft</li>
+</ol>
+</div>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 5: Explain how Cross-Site Scripting (XSS) functions as a type of MITM attack. Describe the mechanism by which malicious scripts are injected into trusted websites and explain what specific types of data these scripts typically steal.</span></p>
+<div class='theory-answer'><strong>Answer:</strong><br>Cross-Site Scripting (XSS) functions as a MITM attack by injecting malicious JavaScript or other scripting code into trusted, websites. When victims visit these infected sites, their browsers automatically execute malicious scripts.</div>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 6: Mention two of most common XSS attacks?</span></p>
+<div class='theory-answer'><strong>Answer:</strong><br>
+<ol>
+<li>Reflected XSS</li>
+<li>Stored XSS</li>
+<li>Dom XSS</li>
+</ol>
+</div>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 7: Describe how DNS spoofing or HTTP spoofing works as a MITM attack technique. Explain what makes this attack particularly deceptive for victims and why URLs may appear correct even when connecting to malicious servers.</span></p>
+<div class='theory-answer'><strong>Answer:</strong><br>DNS spoofing or HTTP spoofing works by redirecting victims to fake websites while making them believe they are accessing legitimate servers. The attacker poisons DNS caches or manipulates DNS responses, causing the victim computer to receive incorrect IP addresses for trusted domains.</div>
+</div>
+<div class='question-block'>
+<p><span class='question-text'>Question 8: Describe how email hijacking works as a MITM attack and explain how attackers gain access to victim email accounts.</span></p>
+<div class='theory-answer'><strong>Answer:</strong><br>Email hijacking as a MITM attack occurs when attackers gain unauthorized access to a victim email account, allowing them to intercept, monitor, and manipulate all communications flowing through that account.</div>
+</div>
+</body>
+</html>

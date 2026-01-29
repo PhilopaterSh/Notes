@@ -415,5 +415,13 @@ Human Vectors
 ### Labs
 [Using Hydra to Crack Passwords | Cybersecurity Labs for Beginners](https://labex.io/labs/linux-using-hydra-to-crack-passwords-415960?course=cybersecurity-labs-for-beginners)
 
+> Attacks
+> **Shrew attacks** use low-rate bursts to stay under the radar of traditional monitors.
+> **Buffer overflows** occur when data exceeds the capacity of a memory buffer
+> **SSL Hijacking attack** attempts to break or weaken the encryption used for secure communication
+> **Stuffing attack** uses lists of compromised usernames/passwords to gain access to unrelated accounts.
+
+
+![[Cybersecurity Fundamentals (Midterm) 2.html]]
 
 ###
