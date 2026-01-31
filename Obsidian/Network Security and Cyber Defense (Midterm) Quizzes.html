@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Security Quizzes</title>
+    <style>
+   body { font-family: sans-serif; line-height: 1.6; padding: 1em; }
+    .question-block { margin-bottom: 2em; border-bottom: 1px solid #eee; padding-bottom: 1em; }
+    .question-text { font-weight: bold; }
+    .choices-list { list-style-type: none; padding-left: 20px; }
+    .correct-answer { font-weight: bold; color: #008000; }
+    .reason { font-style: italic; }
+    .footer { margin-top: 3em; padding-top: 1em; border-top: 1px solid #ccc; text-align: center; font-size: 0.9em; color: #666; }
+
+    /* New Styles for better formatting */
+    h1, h2.quiz-title {
+        color: #333;
+        border-bottom: 2px solid #ccc;
+        padding-bottom: 10px;
+    }
+    h2.lecture-title { /* For Lecture titles */
+        color: #0056b3;
+        border-bottom: 2px solid #0056b3;
+        padding-bottom: 10px;
+        margin-top: 3em;
+    }
+    .theory-question { /* The paragraph containing the question text */
+        font-weight: normal;
+        margin-top: 5px;
+        color: #555;
+    }
+    .theory-answer { /* The block containing the answer */
+        background-color: #f8f9fa;
+        border-left: 4px solid #17a2b8;
+        padding: 12px 15px;
+        margin-top: 10px;
+        font-style: normal; /* Override the italic from 'reason' */
+        color: #343a40;
+    }
+    .theory-answer ul, .theory-answer ol {
+        padding-left: 25px;
+        margin-top: 8px;
+    }
+     .theory-answer strong {
+        color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+    
+  <h1>
+   Created By
+   <a href="https://www.linkedin.com/in/philopater-shenouda/">
+    PhilopaterSh
+   </a>
+  </h1>
+
+    <h2 class="quiz-title">Network Security (Midterm) Quizzes</h2>
+
+    <div class="question-block">
+        <h2 class="lecture-title">Quiz 1 – Networking Fundamentals (OSI Model & Devices)</h2>
+        <div class="question-block">
+            <p><span class="question-text">1. What does OSI stand for?</span></p>
+            <ul class="choices-list">
+                <li>Open Security Infrastructure</li>
+                <li>Operating Signal Interface</li>
+                <li>Open Systems Interconnection</li>
+                <li>Operational System Interface</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: c) Open Systems Interconnection</p>
+            <p class="reason">Reason: OSI stands for Open Systems Interconnection, a conceptual framework used to describe the functions of a networking system.</p>
+        </div>
+        <div class="question-block">
+            <p><span class="question-text">2. How many layers are in the OSI model?</span></p>
+            <ul class="choices-list">
+                <li>8</li>
+                <li>6</li>
+                <li>5</li>
+                <li>7</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: d) 7</p>
+            <p class="reason">Reason: The OSI model consists of seven distinct layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application.</p>
+        </div>
+        <div class="question-block">
+            <p><span class="question-text">3. Which layer of the OSI model is responsible for IP addressing?</span></p>
+            <ul class="choices-list">
+                <li>Network</li>
+                <li>Data Link</li>
+                <li>Transport</li>
+                <li>Physical</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: a) Network</p>
+            <p class="reason">Reason: The Network layer (Layer 3) is responsible for logical addressing (IP addresses) and routing packets across different networks.</p>
+        </div>
+        <div class="question-block">
+            <p><span class="question-text">4. A switch operates mainly at which OSI layer?</span></p>
+            <ul class="choices-list">
+                <li>Layer 2</li>
+                <li>Layer 4</li>
+                <li>Layer 1</li>
+                <li>Layer 7</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: a) Layer 2</p>
+            <p class="reason">Reason: A network switch operates primarily at Layer 2 (Data Link Layer) of the OSI model, forwarding data frames based on MAC addresses.</p>
+        </div>
+        <div class="question-block">
+            <p><span class="question-text">5. A router operates mainly at which OSI layer?</span></p>
+            <ul class="choices-list">
+                <li>Layer 3</li>
+                <li>Layer 2</li>
+                <li>Layer 1</li>
+                <li>Layer 7</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: a) Layer 3</p>
+            <p class="reason">Reason: A router operates at Layer 3 (Network Layer) of the OSI model, responsible for routing packets between different networks using IP addresses.</p>
+        </div>
+        <div class="question-block">
+            <p><span class="question-text">6. What is the main function of a switch?</span></p>
+            <ul class="choices-list">
+                <li>Connect networks</li>
+                <li>Forward packets based on IP</li>
+                <li>Forward frames based on MAC addresses</li>
+                <li>Translate domain names</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: c) Forward frames based on MAC addresses</p>
+            <p class="reason">Reason: A switch's primary function is to forward data frames to specific devices on a local network using their MAC addresses.</p>
+        </div>
+        <div class="question-block">
+            <p><span class="question-text">7. What is the main function of a router?</span></p>
+            <ul class="choices-list">
+                <li>Filter traffic based on port numbers</li>
+                <li>Route packets between networks</li>
+                <li>Create VLANs</li>
+                <li>Generate MAC addresses</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: b) Route packets between networks</p>
+            <p class="reason">Reason: A router's main function is to connect different networks and route data packets between them, determining the best path for data delivery.</p>
+        </div>
+        <div class="question-block">
+            <p><span class="question-text">8. Which OSI layer is responsible for end-to-end reliable communication?</span></p>
+            <ul class="choices-list">
+                <li>Application</li>
+                <li>Transport</li>
+                <li>Network</li>
+                <li>Session</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: b) Transport</p>
+            <p class="reason">Reason: The Transport layer (Layer 4) is responsible for end-to-end communication, including reliability, flow control, and segmentation/reassembly of data.</p>
+        </div>
+        <div class="question-block">
+            <p><span class="question-text">9. Which device reduces collision domains but not broadcast domains?</span></p>
+            <ul class="choices-list">
+                <li>Router</li>
+                <li>Hub</li>
+                <li>Switch</li>
+                <li>Firewall</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: c) Switch</p>
+            <p class="reason">Reason: A switch creates separate collision domains for each port, thus reducing collisions. However, it operates within a single broadcast domain by default.</p>
+        </div>
+        <div class="question-block">
+            <p><span class="question-text">10. In security context, why is understanding OSI layers important?</span></p>
+            <ul class="choices-list">
+                <li>It allows precise identification of attack points and defense mechanisms.</li>
+                <li>It reduces the need for encryption.</li>
+                <li>It helps choose cheaper hardware.</li>
+                <li>It increases network speed.</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: a) It allows precise identification of attack points and defense mechanisms.</p>
+            <p class="reason">Reason: Understanding the OSI layers helps security professionals pinpoint where vulnerabilities might exist and implement appropriate security measures at each layer.</p>
+        </div>
+    </div>
+
+    <div class="question-block">
+        <h2 class="lecture-title">Quiz 2 – IP Addressing, Subnetting & Network Devices</h2>
+        <div class="question-block">
+            <p><span class="question-text">1. What is the default subnet mask for a Class C IPv4 network?</span></p>
+            <ul class="choices-list">
+                <li>255.0.0.0</li>
+                <li>255.255.0.0</li>
+                <li>255.255.255.0</li>
+                <li>255.255.255.255</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: c) 255.255.255.0</p>
+            <p class="reason">Reason: Class C networks are designed for smaller networks and have a default subnet mask of 255.255.255.0, indicating the first three octets are for the network portion.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">2. Which IP address type is used for one-to-many communication?</span></p>
+            <ul class="choices-list">
+                <li>Unicast</li>
+                <li>Broadcast</li>
+                <li>Multicast</li>
+                <li>Anycast</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: c) Multicast</p>
+            <p class="reason">Reason: Multicast IP addresses are used for one-to-many communication, where data is sent to a group of interested recipients simultaneously.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">3. What does NAT stand for?</span></p>
+            <ul class="choices-list">
+                <li>Network Address Translation</li>
+                <li>Network Access Type</li>
+                <li>Node Allocation Table</li>
+                <li>Network Application Transport</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: a) Network Address Translation</p>
+            <p class="reason">Reason: NAT (Network Address Translation) is a method of remapping one IP address space into another by modifying network address information in the IP header of packets.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">4. How many usable host addresses are there in a /30 subnet?</span></p>
+            <ul class="choices-list">
+                <li>2</li>
+                <li>4</li>
+                <li>6</li>
+                <li>8</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: a) 2</p>
+            <p class="reason">Reason: A /30 subnet uses 30 bits for the network portion, leaving 2 bits for hosts. This results in 2^2 = 4 total addresses. Subtracting the network address and broadcast address leaves 2 usable host addresses.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">5. Which device operates primarily to connect different networks?</span></p>
+            <ul class="choices-list">
+                <li>Switch</li>
+                <li>Router</li>
+                <li>Hub</li>
+                <li>Access Point</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: b) Router</p>
+            <p class="reason">Reason: A router's primary function is to connect distinct networks and facilitate communication between them by forwarding packets.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">6. Which command shows the IP configuration on a Windows PC?</span></p>
+            <ul class="choices-list">
+                <li>ifconfig</li>
+                <li>ipconfig</li>
+                <li>netstat</li>
+                <li>ping</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: b) ipconfig</p>
+            <p class="reason">Reason: On Windows systems, `ipconfig` is used to display current TCP/IP network configuration values, while `ifconfig` is common on Unix-like systems.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">7. What is the purpose of a VLAN?</span></p>
+            <ul class="choices-list">
+                <li>Extend a network over the internet</li>
+                <li>Isolate broadcast domains within a switch</li>
+                <li>Increase IP addresses</li>
+                <li>Encrypt data between devices</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: b) Isolate broadcast domains within a switch</p>
+            <p class="reason">Reason: VLANs (Virtual Local Area Networks) logically segment a network into separate broadcast domains, even if devices are on the same physical switch.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">8. Which IP address is considered a private IP address?</span></p>
+            <ul class="choices-list">
+                <li>8.8.8.8</li>
+                <li>192.168.1.1</li>
+                <li>172.217.3.110</li>
+                <li>54.239.28.85</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: b) 192.168.1.1</p>
+            <p class="reason">Reason: 192.168.1.1 falls within the private IP address range (192.168.0.0 to 192.168.255.255), which are not routable on the public internet.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">9. What is the purpose of a subnet mask?</span></p>
+            <ul class="choices-list">
+                <li>To encrypt network traffic</li>
+                <li>To divide an IP network into smaller networks</li>
+                <li>To identify the router’s MAC address</li>
+                <li>To assign DNS servers</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: b) To divide an IP network into smaller networks</p>
+            <p class="reason">Reason: A subnet mask is used to distinguish the network portion of an IP address from the host portion, allowing for the division of a larger network into smaller subnets.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">10. Which command can test connectivity between two devices on a network?</span></p>
+            <ul class="choices-list">
+                <li>ping</li>
+                <li>traceroute</li>
+                <li>nslookup</li>
+                <li>arp</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: a) ping</p>
+            <p class="reason">Reason: The `ping` command sends ICMP echo request packets to a target host and listens for echo reply packets, effectively testing basic network connectivity.</p>
+        </div>    </div>
+
+    <div class="question-block">
+        <h2 class="lecture-title">Quiz 1: Routing & Routing Table Fundamentals </h2>
+        <div class="question-block">
+            <p><span class="question-text">Q1. What is the primary purpose of a routing table in a router?</span></p>
+            <ul class="choices-list">
+                <li>To store MAC addresses of connected devices</li>
+                <li>To determine the best path for packet forwarding</li>
+                <li>To encrypt network traffic</li>
+                <li>To manage application-layer services</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: A routing table stores information about network destinations and the "next hop" to reach them, enabling a router to determine the optimal path for forwarding data packets.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q2. Which of the following entries is typically found in a routing table?</span></p>
+            <ul class="choices-list">
+                <li>A. DNS server address</li>
+                <li>B. Destination network</li>
+                <li>C. Application port number</li>
+                <li>D. User credentials</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: Routing tables primarily contain entries for destination networks, indicating which network can be reached and how.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q3. Which metric represents the number of routers a packet must pass through?</span></p>
+            <ul class="choices-list">
+                <li>A. Bandwidth</li>
+                <li>B. Delay</li>
+                <li>C. Hop count</li>
+                <li>D. Reliability</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: C</p>
+            <p class="reason">Reason: Hop count is a routing metric that measures the number of routers (hops) a packet traverses from its source to its destination.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q4. Administrative Distance (AD) is used to:</span></p>
+            <ul class="choices-list">
+                <li>A. Measure link speed</li>
+                <li>B. Select the best routing protocol source</li>
+                <li>C. Encrypt routing updates</li>
+                <li>D. Detect routing loops</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: Administrative Distance is a value used by routers to rank the trustworthiness of routing information sources, with lower AD values indicating more preferred sources when multiple paths to a destination exist.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q5. If multiple routes exist to the same destination, the router chooses the route with:</span></p>
+            <ul class="choices-list">
+                <li>A. Highest hop count</li>
+                <li>B. Lowest metric value</li>
+                <li>C. Highest IP address</li>
+                <li>D. Largest routing table</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: Routers typically choose the path with the lowest metric value (e.g., lowest hop count, highest bandwidth) when multiple routes to the same destination are available, after considering administrative distance.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q6. Which command displays the routing table on a Cisco router?</span></p>
+            <ul class="choices-list">
+                <li>A. show cdp neighbors</li>
+                <li>B. show ip route</li>
+                <li>C. show interfaces</li>
+                <li>D. show protocols</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: The `show ip route` command is used on Cisco IOS devices to display the IP routing table and its contents.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q7. What does the “next hop” field in a routing table indicate?</span></p>
+            <ul class="choices-list">
+                <li>A. Final destination host</li>
+                <li>B. Router’s own IP address</li>
+                <li>C. Next router to forward the packet to</li>
+                <li>D. Default gateway only</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: C</p>
+            <p class="reason">Reason: The "next hop" in a routing table specifies the IP address of the adjacent router to which a packet should be forwarded on its way to the ultimate destination network.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q8. Which routing table entry is used when no specific route matches a destination?</span></p>
+            <ul class="choices-list">
+                <li>A. Static route</li>
+                <li>B. Direct route</li>
+                <li>C. Default route</li>
+                <li>D. Host route</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: C</p>
+            <p class="reason">Reason: A default route is a special type of static route used by a router when it does not have a specific entry in its routing table for a destination network, essentially sending all unmatched traffic to a single exit point.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q9. Which routing table component specifies where the packet leaves the router?</span></p>
+            <ul class="choices-list">
+                <li>A. Metric</li>
+                <li>B. Destination network</li>
+                <li>C. Outgoing interface</li>
+                <li>D. Administrative distance</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: C</p>
+            <p class="reason">Reason: The outgoing interface in a routing table specifies the local interface on the router through which the packet should be sent to reach the next hop or destination network.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q10. Which layer of the OSI/TCP-IP model is routing mainly associated with?</span></p>
+            <ul class="choices-list">
+                <li>A. Application layer</li>
+                <li>B. Transport layer</li>
+                <li>C. Network layer</li>
+                <li>D. Data link layer</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: C</p>
+            <p class="reason">Reason: Routing is a fundamental function of the Network layer (Layer 3) in both the OSI and TCP/IP models, as it involves determining the best paths for data packets across interconnected networks.</p>
+        </div>    </div>
+
+    <div class="question-block">
+        <h2 class="lecture-title">Quiz 2: Routing Protocols & Network Concepts </h2>
+        <div class="question-block">
+            <p><span class="question-text">Q1. RIP is classified as which type of routing protocol?</span></p>
+            <ul class="choices-list">
+                <li>A. Link State</li>
+                <li>B. Path Vector</li>
+                <li>C. Distance Vector</li>
+                <li>D. Hybrid</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: C</p>
+            <p class="reason">Reason: RIP (Routing Information Protocol) is a distance-vector routing protocol that uses hop count as its metric to determine the best path to a destination.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q2. What metric does RIP use to select the best path?</span></p>
+            <ul class="choices-list">
+                <li>A. Bandwidth</li>
+                <li>B. Delay</li>
+                <li>C. Cost</li>
+                <li>D. Hop count</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: D</p>
+            <p class="reason">Reason: RIP uses hop count, the number of routers a packet must cross, as its sole metric for determining the best path.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q3. What is the maximum hop count allowed in RIP?</span></p>
+            <ul class="choices-list">
+                <li>A. 10</li>
+                <li>B. 15</li>
+                <li>C. 16</li>
+                <li>D. 255</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: RIP has a maximum hop count of 15, meaning any destination beyond 15 hops is considered unreachable.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q4. Why is RIP considered slow to converge?</span></p>
+            <ul class="choices-list">
+                <li>A. It uses Dijkstra’s algorithm</li>
+                <li>B. It sends updates every 30 seconds</li>
+                <li>C. It uses LSAs</li>
+                <li>D. It supports multiple areas</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: RIP is considered slow to converge because it sends full routing table updates periodically (every 30 seconds), which can lead to delays in propagating network changes.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q5. OSPF calculates the shortest path using which algorithm?</span></p>
+            <ul class="choices-list">
+                <li>A. Bellman-Ford</li>
+                <li>B. DUAL</li>
+                <li>C. SPF (Dijkstra)</li>
+                <li>D. AS-Path</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: C</p>
+            <p class="reason">Reason: OSPF (Open Shortest Path First) is a link-state routing protocol that uses Dijkstra's algorithm (Shortest Path First - SPF) to calculate the shortest path to all destinations.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q6. What is the backbone area in OSPF called?</span></p>
+            <ul class="choices-list">
+                <li>A. Area 1</li>
+                <li>B. Area 10</li>
+                <li>C. Area 100</li>
+                <li>D. Area 0</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: D</p>
+            <p class="reason">Reason: In OSPF, Area 0 (or Area 0.0.0.0) is designated as the backbone area, through which all other non-backbone areas must connect.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q7. Which routing protocol supports unequal-cost load balancing?</span></p>
+            <ul class="choices-list">
+                <li>A. RIP</li>
+                <li>B. OSPF</li>
+                <li>C. EIGRP</li>
+                <li>D. BGP</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: C</p>
+            <p class="reason">Reason: EIGRP (Enhanced Interior Gateway Routing Protocol) is known for its ability to perform unequal-cost load balancing, allowing traffic to be distributed across paths with different metrics.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q8. Which protocol is primarily used to connect different Autonomous Systems (AS)?</span></p>
+            <ul class="choices-list">
+                <li>A. OSPF</li>
+                <li>B. RIP</li>
+                <li>C. EIGRP</li>
+                <li>D. BGP</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: D</p>
+            <p class="reason">Reason: BGP (Border Gateway Protocol) is an exterior gateway protocol primarily used to exchange routing information between different Autonomous Systems on the internet.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q9. Which routing protocol prioritizes policy and stability over fast convergence?</span></p>
+            <ul class="choices-list">
+                <li>A. RIP</li>
+                <li>B. OSPF</li>
+                <li>C. EIGRP</li>
+                <li>D. BGP</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: D</p>
+            <p class="reason">Reason: BGP (Border Gateway Protocol) prioritizes policy-based routing and network stability over rapid convergence, as it manages routing across large, complex internetworks.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q10. Which protocol is known as the “error reporting and diagnostic protocol” of the Internet?</span></p>
+            <ul class="choices-list">
+                <li>A. ARP</li>
+                <li>B. ICMP</li>
+                <li>C. TCP</li>
+                <li>D. UDP</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: ICMP (Internet Control Message Protocol) is used by network devices, including routers, to send error messages and operational information, making it the "error reporting and diagnostic protocol."</p>
+        </div>    </div>
+
+    <div class="question-block">
+        <h2 class="lecture-title">Quiz 1: The Security Onion & Ethical Hacking </h2>
+        <div class="question-block">
+            <p><span class="question-text">Q1. In the 'Security Onion' model, which layer is considered the innermost core that all other layers are designed to protect?</span></p>
+            <ul class="choices-list">
+                <li>A. Perimeter Security</li>
+                <li>B. Data Security</li>
+                <li>C. Network Security</li>
+                <li>D. Policies and Awareness</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: In the "Security Onion" model, data security is typically the innermost layer, as the ultimate goal of all other security measures is to protect the sensitive data.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q2. A hacker is using 'TheHarvester' to gather employee emails and subdomains. Which phase of the hacking process are they currently in?</span></p>
+            <ul class="choices-list">
+                <li>A. Scanning</li>
+                <li>B. Gaining Access</li>
+                <li>C. Reconnaissance</li>
+                <li>D. Maintaining Access</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: C</p>
+            <p class="reason">Reason: TheHarvester is a tool used for open-source intelligence (OSINT) gathering, which falls under the reconnaissance phase of ethical hacking, where information about the target is collected.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q3. Which tool would a defender use at the 'Internal Network' layer to detect suspicious traffic patterns or lateral movement?</span></p>
+            <ul class="choices-list">
+                <li>A. Nmap</li>
+                <li>B. IDS/IPS</li>
+                <li>C. Hashcat</li>
+                <li>D. Metasploit</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: IDS (Intrusion Detection Systems) and IPS (Intrusion Prevention Systems) are used within the internal network to monitor for and react to suspicious activity, including lateral movement.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q4. An ethical hacker hired to test a web app accidentally accesses the CEO's private emails. Which ethical guardrail did they violate?</span></p>
+            <ul class="choices-list">
+                <li>A. Legal Authorization</li>
+                <li>B. Scope Limitations</li>
+                <li>C. Responsible Disclosure</li>
+                <li>D. Certification</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: Accessing private emails outside the scope of testing a web app violates the ethical guardrail of scope limitations, which clearly defines what is and is not permitted during an assessment.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q5. What is the primary purpose of 'Clearing Tracks' in the 5-step hacking process?</span></p>
+            <ul class="choices-list">
+                <li>A. To crash the target system</li>
+                <li>B. To bypass the Firewall</li>
+                <li>C. To avoid detection by security monitoring like SIEM</li>
+                <li>D. To install a backdoor</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: C</p>
+            <p class="reason">Reason: Clearing tracks involves removing evidence of the hacker's presence and activities to avoid detection by security systems, ensuring persistence and anonymity.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q6. A 'White Hat' finds a vulnerability and notifies the developer privately. This is an example of:</span></p>
+            <ul class="choices-list">
+                <li>A. Active Reconnaissance</li>
+                <li>B. Zero-Day Exploitation</li>
+                <li>C. Responsible Disclosure</li>
+                <li>D. Physical Security</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: C</p>
+            <p class="reason">Reason: Responsible disclosure is the ethical practice where a security researcher privately informs a vendor about a discovered vulnerability, allowing them time to fix it before public disclosure.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q7. Which tool is commonly used during the Physical Security phase to clone employee access badges?</span></p>
+            <ul class="choices-list">
+                <li>A. Nmap</li>
+                <li>B. RFID Cloner</li>
+                <li>C. Wireshark</li>
+                <li>D. SQLMap</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: An RFID cloner is a device used to copy the data from RFID (Radio-Frequency Identification) tags, often used in access badges, which relates to physical security assessments.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q8. Which tool is commonly used by hackers to intercept and modify web traffic to test for vulnerabilities like SQL injection?</span></p>
+            <ul class="choices-list">
+                <li>A. Burp Suite</li>
+                <li>B. Nmap</li>
+                <li>C. Wireshark</li>
+                <li>D. Hashcat</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: A</p>
+            <p class="reason">Reason: Burp Suite is a popular integrated platform for performing security testing of web applications, including intercepting and modifying HTTP traffic to test for vulnerabilities like SQL injection.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q9. Which layer of the Security Onion is primarily targeted by 'Social Engineering' attacks?</span></p>
+            <ul class="choices-list">
+                <li>A. Host Security</li>
+                <li>B. Policies, Procedures, and Awareness</li>
+                <li>C. Perimeter Security</li>
+                <li>D. Data Security</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: Social engineering attacks primarily target the human element, making "Policies, Procedures, and Awareness" the layer most relevant to defending against such attacks through education and training.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q10. Which document is essential for a White Hat hacker to avoid being treated as a criminal?</span></p>
+            <ul class="choices-list">
+                <li>A. A list of exploits from Metasploit</li>
+                <li>B. A university degree in Computer Science</li>
+                <li>C. Signed Legal Authorization (Rules of Engagement)</li>
+                <li>D. A Shodan subscription</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: C</p>
+            <p class="reason">Reason: Signed legal authorization, often in the form of Rules of Engagement, is crucial for a white hat hacker to operate legally and avoid criminal charges, as it defines the scope and permissions of their activities.</p>
+        </div>    </div>
+
+    <div class="question-block">
+        <h2 class="lecture-title">Quiz 2: Security & Defense </h2>
+        <div class="question-block">
+            <p><span class="question-text">Q1. What do we call a threat that is completely new and unknown to security defenders?</span></p>
+            <ul class="choices-list">
+                <li>A. Known Known</li>
+                <li>B. Known Unknown</li>
+                <li>C. Unknown Unknown</li>
+                <li>D. True Negative</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: C</p>
+            <p class="reason">Reason: An "Unknown Unknown" refers to a threat or vulnerability that is not yet identified or understood, posing the greatest challenge to security defenses. This is often associated with zero-day exploits.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q2. In which phase of a security assessment are the "rules of engagement" and legal boundaries defined?</span></p>
+            <ul class="choices-list">
+                <li>A. Discovery</li>
+                <li>B. Planning</li>
+                <li>C. Exploitation</li>
+                <li>D. Reporting</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: The "rules of engagement" and legal boundaries are critical components established during the planning phase of a security assessment to ensure the test is conducted legally and ethically.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q3. Which WiFi security risk involves an unauthorized router being plugged into the network without permission?</span></p>
+            <ul class="choices-list">
+                <li>A. Evil Twin Attack</li>
+                <li>B. Rogue Access Point</li>
+                <li>C. WPA3 Encryption</li>
+                <li>D. Network Segmentation</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: A rogue access point is an unauthorized wireless access point connected to a wired network, often installed by an employee or attacker, creating a backdoor into the network.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q4. What is the definition of a 'False Positive' in security monitoring?</span></p>
+            <ul class="choices-list">
+                <li>A. An attack that was correctly blocked.</li>
+                <li>B. Safe activity that is incorrectly flagged as a threat.</li>
+                <li>C. A real attack that the system missed.</li>
+                <li>D. A successful security patch.</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: A false positive occurs when a security system incorrectly identifies legitimate or safe activity as malicious, leading to unnecessary alerts and resource expenditure.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q5. A hacker sets up a fake WiFi network with a name identical to a legitimate one. What is this attack called?</span></p>
+            <ul class="choices-list">
+                <li>A. Evil Twin Attack</li>
+                <li>B. Rogue Access Point</li>
+                <li>C. DDOS</li>
+                <li>D. Phising</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: A</p>
+            <p class="reason">Reason: An Evil Twin attack involves a hacker setting up a fraudulent Wi-Fi access point that mimics a legitimate one (often using the same SSID) to trick users into connecting to it.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q6. Which phase of an assessment involves mapping the network to identify all active devices and services?</span></p>
+            <ul class="choices-list">
+                <li>A. Planning</li>
+                <li>B. Discovery</li>
+                <li>C. Exploitation</li>
+                <li>D. Remediation</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: The discovery phase of a security assessment focuses on gathering information about the target network, including identifying active devices, services, and open ports.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q7. Which technology is used to divide a network into smaller zones to stop an attack from spreading?</span></p>
+            <ul class="choices-list">
+                <li>A. VPN</li>
+                <li>B. Network Segmentation</li>
+                <li>C. IDS</li>
+                <li>D. Email Security</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: Network segmentation involves dividing a network into smaller, isolated sub-networks to limit the blast radius of an attack and prevent lateral movement.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q8. What is the primary difference between an IDS and an IPS?</span></p>
+            <ul class="choices-list">
+                <li>A. IDS is for WiFi; IPS is for cables.</li>
+                <li>B. IDS only detects threats; IPS detects and blocks them.</li>
+                <li>C. IDS is hardware; IPS is software.</li>
+                <li>D. IPS is only used by hackers.</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: An IDS (Intrusion Detection System) primarily monitors and alerts on suspicious activities, while an IPS (Intrusion Prevention System) goes a step further by actively blocking or preventing detected threats.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q9. Which tool creates an encrypted 'tunnel' to protect data when using a public WiFi network?</span></p>
+            <ul class="choices-list">
+                <li>A. Firewall</li>
+                <li>B. NAC</li>
+                <li>C. VPN (Virtual Private Network)</li>
+                <li>D. DLP</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: C</p>
+            <p class="reason">Reason: A VPN (Virtual Private Network) creates a secure, encrypted tunnel over a public network, protecting data transmitted between the user's device and the VPN server.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q10. In which phase do testers safely attempt to bypass security to see how far an attacker could get?</span></p>
+            <ul class="choices-list">
+                <li>A. Discovery</li>
+                <li>B. Exploitation</li>
+                <li>C. Reporting</li>
+                <li>D. Remediation</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: The exploitation phase of a security assessment is where testers attempt to leverage discovered vulnerabilities to gain unauthorized access or demonstrate the impact of a weakness.</p>
+        </div>    </div>
+
+    <div class="question-block">
+        <h2 class="lecture-title">Quiz 1: Packet Reception and Processing </h2>
+        <div class="question-block">
+            <p><span class="question-text">Q1. What is the primary role of a Network Interface Card (NIC)?</span></p>
+            <ul class="choices-list">
+                <li>A. To provide Internet access via web browsers</li>
+                <li>B. To link a machine to a network and handle frame reception</li>
+                <li>C. To execute user applications</li>
+                <li>D. To encrypt packets</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: A NIC's fundamental role is to enable a device to connect to a network medium, sending and receiving data frames.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q2. Which of the following is true about Ethernet and WiFi networks?</span></p>
+            <ul class="choices-list">
+                <li>A. They only send data to specific devices</li>
+                <li>B. They are broadcast media, and all devices can hear transmitted frames</li>
+                <li>C. They use NICs that ignore broadcast frames</li>
+                <li>D. They do not require MAC addresses</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: Both Ethernet and Wi-Fi are broadcast media by nature, meaning that all devices connected to the same segment or access point can potentially "hear" all transmitted frames, though filtering mechanisms exist.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q3. When a frame arrives at a NIC, what is the first step?</span></p>
+            <ul class="choices-list">
+                <li>A. The CPU immediately processes it</li>
+                <li>B. The frame is copied into the NIC’s internal memory</li>
+                <li>C. The packet is discarded</li>
+                <li>D. The protocol stack handles it directly</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: Upon reception, a frame is typically first copied into the NIC's internal buffer or memory for initial processing before being passed to the system's main memory.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q4. What mechanism allows a NIC to transfer packets to system memory without involving the CPU?</span></p>
+            <ul class="choices-list">
+                <li>A. Interrupt-driven I/O</li>
+                <li>B. Direct Memory Access (DMA)</li>
+                <li>C. Kernel queue</li>
+                <li>D. Promiscuous mode</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: Direct Memory Access (DMA) allows the NIC to directly transfer data to and from the system's main memory without requiring constant intervention from the CPU, improving efficiency.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q5. After a NIC interrupts the CPU, what does the kernel do with incoming packets?</span></p>
+            <ul class="choices-list">
+                <li>A. Discards them immediately</li>
+                <li>B. Moves packets from the ring buffer to a kernel queue for processing</li>
+                <li>C. Sends them directly to user-space applications</li>
+                <li>D. Converts them to TCP packets only</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: After the NIC's DMA engine has placed the incoming packet data into a ring buffer in system memory, the NIC interrupts the CPU. The kernel's network driver then moves these packets from the ring buffer into kernel queues for further processing by the protocol stack.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q6. Which layer removes link-layer headers such as Ethernet before passing packets upward?</span></p>
+            <ul class="choices-list">
+                <li>A. Application layer</li>
+                <li>B. Protocol stack</li>
+                <li>C. Link-layer driver</li>
+                <li>D. Raw socket interface</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: C</p>
+            <p class="reason">Reason: The link-layer driver (part of the operating system's kernel) is responsible for handling the specifics of the data link layer, including removing the Ethernet (or Wi-Fi) header before passing the packet up to the network layer.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q7. What is the purpose of the kernel’s protocol stack in packet reception?</span></p>
+            <ul class="choices-list">
+                <li>A. To encrypt packets</li>
+                <li>B. To decapsulate packets and process protocol-specific headers</li>
+                <li>C. To block unwanted traffic</li>
+                <li>D. To transfer packets to other NICs</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: The kernel's protocol stack (e.g., TCP/IP stack) decapsulates incoming packets layer by layer, processing headers relevant to each protocol (IP, TCP/UDP) and eventually delivering the data to the appropriate application.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q8. At the hardware level, what does the NIC controller do?</span></p>
+            <ul class="choices-list">
+                <li>A. Generates MAC addresses</li>
+                <li>B. Manages and coordinates data movement inside the NIC</li>
+                <li>C. Passes packets directly to applications</li>
+                <li>D. Runs the kernel network stack</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: The NIC controller is the microchip on the NIC that handles the physical and data link layer functions, including managing the flow of data between the network medium and the system's bus/memory.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q9. Where are incoming packets temporarily stored in the system memory before kernel processing?</span></p>
+            <ul class="choices-list">
+                <li>A. Stack buffer</li>
+                <li>B. Ring buffer</li>
+                <li>C. Promiscuous queue</li>
+                <li>D. User-space application buffer</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: Incoming packets are often temporarily stored in a "ring buffer" (a circular buffer) in the system's memory by the NIC's DMA mechanism before the kernel's network stack can process them.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q10. Which of the following represents the two levels of packet reception explained in the text?</span></p>
+            <ul class="choices-list">
+                <li>A. Hardware level (NIC) and System level (Kernel)</li>
+                <li>B. Application layer and Transport layer</li>
+                <li>C. TCP/IP stack and UDP stack</li>
+                <li>D. User-space and Network driver only</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: A</p>
+            <p class="reason">Reason: Packet reception is typically understood at two main levels: the hardware level (handled by the NIC) and the software/system level (handled by the kernel and its network stack).</p>
+        </div>    </div>
+
+    <div class="question-block">
+        <h2 class="lecture-title">Quiz 2: Modes and Packet Sniffing </h2>
+        <div class="question-block">
+            <p><span class="question-text">Q1. What is promiscuous mode used for in wired networks?</span></p>
+            <ul class="choices-list">
+                <li>A. To block all packets except broadcast</li>
+                <li>B. To forward every frame to the kernel regardless of the MAC address</li>
+                <li>C. To encrypt data on the network</li>
+                <li>D. To reduce network traffic</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: In promiscuous mode, a NIC is configured to capture and process all network traffic it receives, regardless of whether the frames are addressed to its own MAC address or not.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q2. Which privilege is typically required to enable promiscuous mode?</span></p>
+            <ul class="choices-list">
+                <li>A. Guest user access</li>
+                <li>B. Administrator or root access</li>
+                <li>C. Any user-level access</li>
+                <li>D. No privilege required</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: Enabling promiscuous mode often requires elevated privileges (administrator or root) on most operating systems, as it allows access to network traffic not specifically destined for the host.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q3. Why is promiscuous mode alone insufficient for wireless networks?</span></p>
+            <ul class="choices-list">
+                <li>A. Wireless NICs cannot read MAC addresses</li>
+                <li>B. Wireless networks operate on multiple channels and bandwidth slices</li>
+                <li>C. Wireless NICs do not use protocol stacks</li>
+                <li>D. Wireless traffic cannot be captured at all</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: Wireless networks operate using different channels and can employ techniques like channel hopping or multiple spatial streams. A wireless NIC in promiscuous mode on a single channel might miss traffic on other channels or streams, making it less effective for comprehensive sniffing without further configuration (e.g., monitor mode).</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q4. What is the purpose of the BSD Packet Filter (BPF)?</span></p>
+            <ul class="choices-list">
+                <li>A. To encrypt packets before sending</li>
+                <li>B. To filter packets inside the kernel before delivering to user-space</li>
+                <li>C. To bypass the NIC entirely</li>
+                <li>D. To change the MAC address of packets</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: BPF (BSD Packet Filter) provides a mechanism to efficiently filter network packets at the kernel level, reducing the overhead of passing irrelevant packets to user-space applications.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q5. How are BPF filters attached to a socket in Unix-based systems?</span></p>
+            <ul class="choices-list">
+                <li>A. Using recvfrom()</li>
+                <li>B. Using setsockopt() with SO_ATTACH_FILTER</li>
+                <li>C. Using bind()</li>
+                <li>D. Using raw socket creation</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: In Unix-based systems, BPF filters are typically attached to a socket using the `setsockopt()` function with the `SO_ATTACH_FILTER` option.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q6. What advantage does BPF filtering provide for packet sniffing?</span></p>
+            <ul class="choices-list">
+                <li>A. Ensures all packets are captured</li>
+                <li>B. Reduces CPU and memory usage by discarding irrelevant packets early</li>
+                <li>C. Encrypts captured packets automatically</li>
+                <li>D. Eliminates the need for NICs</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: BPF filtering significantly improves packet sniffing performance by allowing the kernel to discard packets that don't match the filter criteria, thereby reducing the amount of data transferred to user-space and conserving CPU/memory resources.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q7. Why are raw sockets required for packet sniffing?</span></p>
+            <ul class="choices-list">
+                <li>A. To send packets faster</li>
+                <li>B. To capture all packets on the network regardless of destination IP or port</li>
+                <li>C. To convert UDP to TCP</li>
+                <li>D. To avoid using BPF</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: Raw sockets allow an application to directly access the network layer, enabling it to send and receive raw IP packets and capture traffic without the operating system's protocol stack processing it based on destination IP or port.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q8. Which socket type is used to create a raw socket?</span></p>
+            <ul class="choices-list">
+                <li>A. SOCK_STREAM</li>
+                <li>B. SOCK_DGRAM</li>
+                <li>C. SOCK_RAW</li>
+                <li>D. SOCK_PROMISC</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: C</p>
+            <p class="reason">Reason: The `SOCK_RAW` socket type is used to create raw sockets, providing direct access to the underlying network protocols.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q9. What library is commonly used to optimize packet capturing and provide portability across systems?</span></p>
+            <ul class="choices-list">
+                <li>A. libnet</li>
+                <li>B. libpcap</li>
+                <li>C. libsocket</li>
+                <li>D. libfilter</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: libpcap is a widely used, portable C/C++ library for network traffic capture, providing a consistent API across various operating systems for tools like Wireshark and tcpdump.</p>
+        </div>        <div class="question-block">
+            <p><span class="question-text">Q10. In packet sniffing using pcap, what is the first step?</span></p>
+            <ul class="choices-list">
+                <li>A. Compile a BPF filter</li>
+                <li>B. Open a live pcap session on a network interface</li>
+                <li>C. Set the filter using pcap_setfilter()</li>
+                <li>D. Typecast the Ethernet header</li>
+            </ul>
+            <p class="correct-answer">Correct Answer: B</p>
+            <p class="reason">Reason: The initial step in using libpcap for live packet sniffing is to open a live capture session on a specified network interface using a function like `pcap_open_live()`.</p>
+        </div>    </div>
+
+    <!-- Theoretical Questions from Network Security qa.pdf -->
+    <div class="quiz-section">
+        <div class="theoretical-question">
+            <h3>Network Security Lecture [1] - Question 1</h3>
+            <p class="theory-question">What is the fundamental purpose of a communication system, and what are its main components?</p>
+            <div class="theory-answer">
+                <strong>Answer:</strong><br/>
+                The fundamental purpose of a communication system is the exchange of data between two or more devices.<br/>
+                Its main components are:
+                <ol>
+                    <li>Source/Information – The original message (data, voice, or video).</li>
+                    <li>Transmitter (Tx) – Converts the message into a suitable signal for transmission.</li>
+                    <li>Channel/Medium – The physical path the signal travels (cable, fiber, air).</li>
+                    <li>Receiver (Rx) – Converts the received signal back into the original message.</li>
+                    <li>Destination – The intended user or device.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="theoretical-question">
+            <h3>Network Security Lecture [1] - Question 2</h3>
+            <p class="theory-question">Explain the Data Communication Model from text transmission to reception.</p>
+            <div class="theory-answer">
+                <strong>Answer:</strong><br/>
+                The Data Communication Model follows these steps:
+                <ol>
+                    <li>Input Information (m) – Original data such as text.</li>
+                    <li>Input Data (g(t)) – Conversion of data into a digital bit stream.</li>
+                    <li>Transmission Preparation – Modulation creates the transmitted signal (s(t)).</li>
+                    <li>Signal Transmission – The signal travels through the medium and may degrade.</li>
+                    <li>Signal Recovery – The receiver demodulates the signal back into bits.</li>
+                    <li>Output Data (g'(t)) – The destination converts bits back to the original data.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="theoretical-question">
+            <h3>Network Security Lecture [1] - Question 3</h3>
+            <p class="theory-question">Differentiate between Bandwidth, Throughput, and Latency.</p>
+            <div class="theory-answer">
+                <strong>Answer:</strong><br/>
+                <ul>
+                    <li><strong>Bandwidth:</strong> The maximum capacity of a network link, measured in bps.</li>
+                    <li><strong>Throughput:</strong> The actual rate of data successfully transferred.</li>
+                    <li><strong>Latency:</strong> The time delay for data to travel from source to destination, measured in milliseconds (ms).</li>
+                </ul>
+            </div>
+        </div>
+        <div class="theoretical-question">
+            <h3>Network Security Lecture [1] - Question 4</h3>
+            <p class="theory-question">What is a computer network, and mention four benefits of computer networks.</p>
+            <div class="theory-answer">
+                <strong>Answer:</strong><br/>
+                A computer network is a set of interconnected devices that share resources and exchange information.<br/>
+                Benefits:
+                <ol>
+                    <li>Resource sharing (printers, storage, internet).</li>
+                    <li>Data sharing between users.</li>
+                    <li>Communication (email, chat, video calls).</li>
+                    <li>Centralized management and security.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="theoretical-question">
+            <h3>Network Security Lecture [1] - Question 5</h3>
+            <p class="theory-question">How does a switch operate, and which OSI layer does it work on?</p>
+            <div class="theory-answer">
+                <strong>Answer:</strong><br/>
+                A switch operates at Layer 2 (Data Link Layer) of the OSI model.<br/>
+                <ul>
+                    <li>It learns MAC addresses by inspecting the source MAC of incoming frames.</li>
+                    <li>Stores MAC addresses in a MAC address table with corresponding ports.</li>
+                    <li>If the destination MAC is known, it forwards the frame to the correct port.</li>
+                    <li>If unknown, it floods the frame to all ports except the source port.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="theoretical-question">
+            <h3>Network Security Lecture [1] - Question 6</h3>
+            <p class="theory-question">Explain NAT and mention its main types.</p>
+            <div class="theory-answer">
+                <strong>Answer:</strong><br/>
+                Network Address Translation (NAT) allows multiple private devices to share a single public IP address to access the internet.<br/>
+                How it works:
+                <ul>
+                    <li>Replaces private IP addresses with a public IP.</li>
+                    <li>Uses port numbers to track sessions.</li>
+                    <li>Maintains a NAT table for translations.</li>
+                </ul>
+                Types of NAT:
+                <ol>
+                    <li>Static NAT – One-to-one permanent mapping.</li>
+                    <li>Dynamic NAT – Temporary mapping from a pool of public IPs.</li>
+                    <li>PAT (Port Address Translation) – Many private IPs share one public IP using different ports.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="theoretical-question">
+            <h3>Network Security Lecture [2] - Question 1</h3>
+            <p class="theory-question">Explain the Security Chain using an example.</p>
+            <div class="theory-answer">
+                <strong>Answer:</strong><br/>
+                The Security Chain explains how a security incident occurs:<br/>
+                <ul>
+                    <li>An Asset (e.g., Server)</li>
+                    <li>Has a Vulnerability (e.g., unpatched OS)</li>
+                    <li>Which is exploited by a Threat (e.g., Hacker)</li>
+                    <li>Using an Exploit (e.g., malware)</li>
+                    <li>Resulting in a Risk (e.g., data breach)</li>
+                </ul>
+                This risk threatens the organization's CIA triad (Confidentiality, Integrity, Availability).
+            </div>
+        </div>
+        <div class="theoretical-question">
+            <h3>Network Security Lecture [2] - Question 2</h3>
+            <p class="theory-question">Define the CIA triad and give one security control for each element.</p>
+            <div class="theory-answer">
+                <strong>Answer:</strong><br/>
+                <ul>
+                    <li><strong>Confidentiality:</strong> Ensures only authorized users can access data. Controls: Encryption, MFA, ACLs.</li>
+                    <li><strong>Integrity:</strong> Ensures data accuracy and prevents unauthorized modification. Controls: Hashing, Digital Signatures.</li>
+                    <li><strong>Availability:</strong> Ensures systems and data are accessible when needed. Controls: Redundant servers, DDoS protection, backups.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="theoretical-question">
+            <h3>Network Security Lecture [2] - Question 3</h3>
+            <p class="theory-question">What is Murphy's Law in cybersecurity, and what security principle does it support?</p>
+            <div class="theory-answer">
+                <strong>Answer:</strong><br/>
+                Murphy's Law in cybersecurity states that anything that can go wrong will go wrong, meaning vulnerabilities will eventually be exploited.<br/>
+                It supports the principle of Layered Defense, emphasizing:
+                <ul>
+                    <li>Rapid patching and monitoring</li>
+                    <li>Multiple overlapping security controls</li>
+                    <li>Proactive incident response planning</li>
+                </ul>
+            </div>
+        </div>
+        <div class="theoretical-question">
+            <h3>Network Security Lecture [2] - Question 4</h3>
+            <p class="theory-question">What is Network Security, and list four of its main objectives.</p>
+            <div class="theory-answer">
+                <strong>Answer:</strong><br/>
+                Network security protects networks and the data they carry from unauthorized access and cyberattacks.<br/>
+                Objectives:
+                <ol>
+                    <li>Prevent unauthorized access.</li>
+                    <li>Protect confidentiality, integrity, and availability.</li>
+                    <li>Secure communication between systems.</li>
+                    <li>Ensure reliable and trustworthy network operations.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="theoretical-question">
+            <h3>Network Security Lecture [2] - Question 5</h3>
+            <p class="theory-question">Explain the Security Onion model and its purpose.</p>
+            <div class="theory-answer">
+                <strong>Answer:</strong><br/>
+                The Security Onion represents a multi-layered defense strategy where multiple security layers protect assets.<br/>
+                If one layer fails, others continue protection.<br/>
+                Layers include:
+                <ol>
+                    <li>Data</li>
+                    <li>Application</li>
+                    <li>Host</li>
+                    <li>Internal Network</li>
+                    <li>Perimeter</li>
+                    <li>Physical</li>
+                    <li>Policies, Procedures, and Awareness.</li>
+                </ol>
+                Its purpose is to slow attackers, limit damage, and increase detection chances.
+            </div>
+        </div>
+        <div class="theoretical-question">
+            <h3>Network Security Lecture [2] - Question 6</h3>
+            <p class="theory-question">List four types of hackers and briefly describe each.</p>
+            <div class="theory-answer">
+                <strong>Answer:</strong><br/>
+                <ul>
+                    <li><strong>White Hat Hackers:</strong> Ethical professionals who find and fix vulnerabilities legally.</li>
+                    <li><strong>Black Hat Hackers:</strong> Malicious attackers seeking financial or personal gain.</li>
+                    <li><strong>Gray Hat Hackers:</strong> Operate without permission but usually without malicious intent.</li>
+                    <li><strong>Script Kiddies:</strong> Inexperienced attackers using pre-made tools without deep knowledge.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="theoretical-question">
+            <h3>Network Security Lecture [2] - Question 7</h3>
+            <p class="theory-question">Describe the five main phases of hacking.</p>
+            <div class="theory-answer">
+                <strong>Answer:</strong><br/>
+                <ol>
+                    <li><strong>Reconnaissance:</strong> Gathering information about the target.</li>
+                    <li><strong>Scanning:</strong> Identifying vulnerabilities and open services.</li>
+                    <li><strong>Gaining Access:</b> Exploiting vulnerabilities to enter systems.</li>
+                    <li><strong>Maintaining Access:</strong> Installing backdoors for persistence.</li>
+                    <li><strong>Clearing Tracks:</strong> Hiding evidence by deleting logs and traces.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="theoretical-question">
+            <h3>Network Security Lecture [2] - Question 8</h3>
+            <p class="theory-question">What are False Positives and False Negatives in security systems?</p>
+            <div class="theory-answer">
+                <strong>Answer:</strong><br/>
+                <ul>
+                    <li><strong>False Positive:</strong> Legitimate activity incorrectly flagged as an attack, leading to alert fatigue.</li>
+                    <li><strong>False Negative:</strong> A real attack that goes undetected, which is more dangerous.</li>
+                </ul>
+                Security teams reduce these by system tuning, automation, and machine learning.
+            </div>
+        </div>
+        <div class="theoretical-question">
+            <h3>Network Security Lecture [3] - Question 1</h3>
+            <p class="theory-question">Explain how a Network Interface Card (NIC) receives a packet at the hardware level.</p>
+            <div class="theory-answer">
+                <strong>Answer:</strong><br/>
+                At the hardware level, packet reception occurs as follows:<br/>
+                <ol>
+                    <li>The packet arrives from the network and enters the NIC through the Net Receive DMA engine.</li>
+                    <li>The packet is temporarily stored in the NIC's internal memory buffers.</li>
+                    <li>An on-board NIC controller manages the process.</li>
+                    <li>Using Direct Memory Access (DMA), the packet is transferred directly to the host's main memory (RAM) over the PCI bus.</li>
+                </ol>
+                DMA allows high-speed transfer without involving the CPU, improving performance.
+            </div>
+        </div>
+        <div class="theoretical-question">
+            <h3>Network Security Lecture [3] - Question 2</h3>
+            <p class="theory-question">Describe the system-level packet processing flow inside the operating system kernel.</p>
+            <div class="theory-answer">
+                <strong>Answer:</strong><br/>
+                After the packet reaches system memory:<br/>
+                <ol>
+                    <li>The packet is placed into a ring buffer in RAM.</li>
+                    <li>The NIC interrupts the CPU to signal packet arrival.</li>
+                    <li>The CPU moves packets from the ring buffer into a kernel queue.</li>
+                    <li>The kernel invokes protocol-specific handlers.</li>
+                    <li>Link-layer headers are removed, and protocols such as IP, TCP, or UDP are processed.</li>
+                    <li>The cleaned data is delivered to the appropriate user-space application.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="theoretical-question">
+            <h3>Network Security Lecture [3] - Question 3</h3>
+            <p class="theory-question">What is promiscuous mode, and why is it required for packet sniffing on wired networks?</p>
+            <div class="theory-answer">
+                <strong>Answer:</strong><br/>
+                Promiscuous mode is a special NIC operating mode where:<br/>
+                <ul>
+                    <li>The NIC forwards all received frames to the operating system.</li>
+                    <li>Frames are forwarded regardless of destination MAC address.</li>
+                </ul>
+                It is required for packet sniffing because, under normal operation, a NIC discards frames not addressed to it. Promiscuous mode allows tools like Wireshark or tcpdump to capture traffic between other devices on the same network. Enabling it usually requires administrator or root privileges.
+            </div>
+        </div>
+        <div class="theoretical-question">
+            <h3>Network Security Lecture [3] - Question 4</h3>
+            <p class="theory-question">Why is monitor mode needed for wireless packet sniffing instead of promiscuous mode?</p>
+            <div class="theory-answer">
+                <strong>Answer:</strong><br/>
+                In wireless networks:<br/>
+                <ul>
+                    <li>Traffic is distributed across multiple channels.</li>
+                    <li>Wireless NICs normally listen only on specific channels.</li>
+                </ul>
+                Promiscuous mode alone is insufficient because it cannot capture traffic from other channels. Monitor mode allows a wireless NIC to:<br/>
+                <ul>
+                    <li>Capture raw 802.11 frames</li>
+                    <li>Listen to all traffic on a selected channel</li>
+                    <li>Analyze management, control, and data frames</li>
+                </ul>
+                This makes monitor mode essential for wireless packet analysis.
+            </div>
+        </div>
+        <div class="theoretical-question">
+            <h3>Network Security Lecture [3] - Question 5</h3>
+            <p class="theory-question">What is the BSD Packet Filter (BPF), and why is it important?</p>
+            <div class="theory-answer">
+                <strong>Answer:</strong><br/>
+                The BSD Packet Filter (BPF) is a kernel-level packet filtering mechanism that:<br/>
+                <ul>
+                    <li>Filters packets before they reach user-space applications</li>
+                    <li>Allows only relevant packets to be delivered</li>
+                    <li>Reduces CPU usage and memory overhead</li>
+                </ul>
+                BPF is important because capturing all packets and filtering them in user space is inefficient, especially on high-traffic networks.
+            </div>
+        </div>
+        <div class="theoretical-question">
+            <h3>Network Security Lecture [3] - Question 6</h3>
+            <p class="theory-question">Explain how a BPF filter works from attachment to packet decision.</p>
+            <div class="theory-answer">
+                <strong>Answer:</strong><br/>
+                <ol>
+                    <li>A user-space application attaches a BPF filter to a socket.</li>
+                    <li>The filter is written in human-readable form (e.g., tcp, port 22).</li>
+                    <li>The filter is compiled into BPF bytecode.</li>
+                    <li>The kernel executes this bytecode using the BPF pseudo-machine.</li>
+                    <li>If the packet matches the filter, it is accepted and delivered.</li>
+                    <li>If not, it is discarded early inside the kernel.</li>
+                </ol>
+                This ensures efficient packet processing.
+            </div>
+        </div>
+        <div class="theoretical-question">
+            <h3>Network Security Lecture [3] - Question 7</h3>
+            <p class="theory-question">Why are raw sockets required for packet sniffing, and what are their key properties?</p>
+            <div class="theory-answer">
+                <strong>Answer:</strong><br/>
+                Raw sockets are required because:<br/>
+                <ul>
+                    <li>Normal sockets receive only packets addressed to their IP and port.</li>
+                    <li>Packet sniffing requires capturing all packets, regardless of destination.</li>
+                </ul>
+                Key properties of raw sockets:<br/>
+                <ul>
+                    <li>Created using SOCK_RAW</li>
+                    <li>Receive entire packets including link-layer headers</li>
+                    <li>Capture packets before protocol stack filtering</li>
+                    <li>Copy packets without blocking or intercepting them</li>
+                </ul>
+            </div>
+        </div>
+        <div class="theoretical-question">
+            <h3>Network Security Lecture [3] - Question 8</h3>
+            <p class="theory-question">Why is the pcap API preferred over simple raw socket sniffers?</p>
+            <div class="theory-answer">
+                <strong>Answer:</strong><br/>
+                The pcap API is preferred because:<br/>
+                <ul>
+                    <li>It is platform-independent</li>
+                    <li>Offers high-performance packet capture</li>
+                    <li>Supports human-readable filtering rules</li>
+                    <li>Uses BPF for efficient kernel-level filtering</li>
+                    <li>Reduces packet loss under heavy traffic</li>
+                </ul>
+                Simple raw socket sniffers suffer from poor performance, lack filtering, and may miss packets on busy networks.
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

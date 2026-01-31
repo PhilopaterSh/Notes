@@ -181,3 +181,10 @@ Required Tools & Software
 	    ==**BGP**==
 	20. Which protocol is known as the “error reporting and diagnostic protocol” of the Internet?
 	    ==**ICMP**==
+
+
+
+
+
+### 
+![[Network Security and Cyber Defense (Midterm) Quizzes.html]]
