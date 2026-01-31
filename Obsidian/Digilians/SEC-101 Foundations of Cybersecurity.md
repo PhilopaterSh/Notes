@@ -422,6 +422,6 @@ Human Vectors
 > **Stuffing attack** uses lists of compromised usernames/passwords to gain access to unrelated accounts.
 
 
-![[Cybersecurity Fundamentals (Midterm) 2.html]]
+![[Cybersecurity Fundamentals (Midterm).html]]
 
 ###
